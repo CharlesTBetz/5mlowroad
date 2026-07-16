@@ -22,4 +22,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - claude-code-jekyll-prompt.md
+  - HANDOFF.md
   - vendor
