@@ -1,0 +1,293 @@
+/* ==========================================================================
+   Five Minutes on the Low Road — main.css
+   Mobile-first, plain CSS, no framework.
+   Register: literary, minimal, slightly otherworldly (chapbook meets memoir).
+   ========================================================================== */
+
+:root {
+  --bg:            #f8f6f2;  /* warm, paper-like near-white */
+  --text:          #1a1a1a;  /* near-black */
+  --accent:        #2a6b6b;  /* deep teal — the "other side" color */
+  --accent-dark:   #1f4f4f;  /* darker teal for hover/active */
+  --gold:          #c9a84c;  /* warm gold — sparing highlights */
+  --rule:          #e2ddd3;  /* hairline rules on the paper bg */
+
+  --font-body:   'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-head:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  --measure:     42rem;      /* comfortable reading width */
+  --tap:         44px;       /* minimum touch target */
+}
+
+/* ----- Reset-ish ---------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;          /* mobile base */
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover, a:focus { color: var(--accent-dark); }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-head);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin: 0 0 0.5em;
+}
+
+/* Focus visibility for keyboard users */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ----- Layout scaffold ---------------------------------------------------- */
+.site-main { min-height: 60vh; }
+
+.page, .listen-content {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.listen-content { max-width: 46rem; }
+
+.page-header { margin-bottom: 1.5rem; }
+.page-title { font-size: 2rem; }
+.page-subtitle { font-family: var(--font-body); font-style: italic; color: #444; margin-top: -0.25em; }
+
+/* ----- Header / navigation ------------------------------------------------ */
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+}
+
+.site-nav {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  max-width: 70%;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: var(--tap);
+  height: var(--tap);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.nav-toggle-bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 0 auto;
+  background: var(--text);
+}
+
+.site-nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* hidden by default on mobile until toggled */
+  display: none;
+}
+.site-nav-menu.is-open { display: block; }
+
+.site-nav-menu li { border-top: 1px solid var(--rule); }
+.site-nav-menu a {
+  display: block;
+  font-family: var(--font-head);
+  text-decoration: none;
+  color: var(--text);
+  padding: 0.85rem 0.25rem;
+  min-height: var(--tap);
+}
+.site-nav-menu a:hover,
+.site-nav-menu a:focus { color: var(--accent); }
+
+/* ----- Hero --------------------------------------------------------------- */
+.hero {
+  /* TODO: replace background-color with background-image: url('/assets/images/hero.jpg') */
+  background-color: var(--accent);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1.25rem;
+}
+.hero-title {
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 0.25em;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.25);
+}
+.hero-subtitle {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 0;
+  color: #f3efe6;
+}
+
+/* ----- Buttons / CTAs ----------------------------------------------------- */
+.cta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap);
+  padding: 0.7rem 1.4rem;
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 2px solid var(--accent);
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover, .btn-primary:focus { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+.btn-secondary { background: transparent; color: var(--accent); }
+.btn-secondary:hover, .btn-secondary:focus { background: var(--accent); color: #fff; }
+
+/* ----- Content blocks ----------------------------------------------------- */
+.logline {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin: 1.5rem auto;
+  max-width: var(--measure);
+}
+
+.section { margin: 2.5rem 0; }
+.section-heading { font-size: 1.5rem; border-bottom: 2px solid var(--gold); display: inline-block; padding-bottom: 0.15em; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+/* ----- Audio players ------------------------------------------------------ */
+.audio-player { margin: 1rem 0; }
+.audio-player-title { font-family: var(--font-head); margin: 0 0 0.4rem; }
+.audio-player-el { width: 100%; }   /* full-width on mobile */
+
+.podcast-embed {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+}
+.podcast-embed iframe { width: 100%; border: 0; }
+
+/* ----- Song cards --------------------------------------------------------- */
+.song-card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fffdf9;
+  padding: 1.25rem;
+  margin: 1rem 0;
+}
+.song-card-title { font-size: 1.2rem; margin-bottom: 0.25rem; }
+.song-card-description { margin-top: 0; color: #444; }
+
+/* ----- Forms (subscribe / contact) --------------------------------------- */
+.kit-form, .contact-form {
+  max-width: 30rem;
+  margin: 1.5rem auto;
+}
+.form-field { margin-bottom: 1rem; }
+.form-field label {
+  display: block;
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #c9c2b4;
+  border-radius: 2px;
+  background: #fff;
+}
+.form-field textarea { min-height: 8rem; resize: vertical; }
+.form-promise { text-align: center; font-size: 0.95rem; color: #666; font-style: italic; }
+
+/* ----- Footer ------------------------------------------------------------- */
+.site-footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 3rem;
+  padding: 2rem 1.25rem;
+  font-size: 0.95rem;
+}
+.footer-signup, .footer-meta {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.footer-signup { margin-bottom: 1.25rem; }
+.footer-signup-label { font-family: var(--font-head); margin: 0 0 0.4rem; }
+.footer-meta p { margin: 0.2rem 0; color: #555; }
+
+/* ==========================================================================
+   Desktop / larger screens
+   ========================================================================== */
+@media (min-width: 40em) {
+  body { font-size: 18px; }        /* 18px / 1.7 on desktop */
+
+  .page-title { font-size: 2.5rem; }
+  .hero-title { font-size: 3.4rem; }
+  .hero { padding: 6rem 1.25rem; }
+
+  /* Nav becomes a horizontal bar; hide the toggle */
+  .nav-toggle { display: none; }
+  .site-nav-menu {
+    display: flex;                 /* always visible on desktop */
+    width: auto;
+    gap: 1.5rem;
+  }
+  .site-nav-menu li { border-top: 0; }
+  .site-nav-menu a { padding: 0.25rem 0; }
+
+  .cta-row { flex-direction: row; justify-content: center; }
+  .btn { min-width: 12rem; }
+}

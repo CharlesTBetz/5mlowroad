@@ -1,0 +1,25 @@
+title: Five Minutes on the Low Road
+description: A new musical about near-death experience, empathy, and transformation. By Charles T. Betz.
+url: "https://5mlowroad.com"
+baseurl: ""
+author: Charles T. Betz
+email: char@charlestbetz.com
+
+# Build settings
+markdown: kramdown
+theme: null  # Custom theme, no gem theme
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# This is a promotional site, not a blog — disable posts collection defaults.
+# (No _posts directory exists; this keeps things explicit.)
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - claude-code-jekyll-prompt.md
+  - vendor

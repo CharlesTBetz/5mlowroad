@@ -1,0 +1,12 @@
+{% comment %}
+  Individual song card: title, description, and an audio player.
+  Usage:
+    {% include song-card.html title="Song Title" src="/assets/audio/song.mp3" description="..." %}
+{% endcomment %}
+<div class="song-card">
+  <h3 class="song-card-title">{{ include.title }}</h3>
+  <p class="song-card-description">
+    {% if include.description %}{{ include.description }}{% else %}<!-- TODO: description -->{% endif %}
+  </p>
+  {% include audio-player.html src=include.src %}
+</div>
