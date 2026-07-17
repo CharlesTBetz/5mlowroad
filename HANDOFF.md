@@ -1,63 +1,73 @@
-# Handoff — 5mlowroad.com Jekyll site
+# Handoff — 5mlowroad.com (Jekyll site for *Five Minutes on the Low Road*)
 
-Copy everything below the line into a new Claude Code session started in
-`/Users/char/code/5min` to continue the work.
+Working dir: `/Users/char/code/5min`. This file is git-ignored from the *build*
+but committed to the repo. Read `source/design-guide.md` and
+`source/claude-code-jekyll-update-prompt.md` for the full design brief, and
+`source/brochure.pdf` for the story/voice.
 
----
+## Current state (2026-07-17): LIVE and redesigned
 
-You are picking up an in-progress build of the promotional website for **Five
-Minutes on the Low Road**, a musical by Charles T. Betz. The full spec is in
-`claude-code-jekyll-prompt.md` in this directory — read it if you need detail.
-The site was built and verified end-to-end in a browser in a prior session.
+The site is deployed and verified at **https://5mlowroad.com**. Fully redesigned
+to match the brochure + Luke O'Leary's illustrations. Last commit on `main`:
+"Redesign to match brochure + Luke O'Leary illustrations" — pushed, Actions
+deploy succeeded, live pages confirmed 200.
 
-## Current state (all committed on `main`, one commit)
+- **Repo:** https://github.com/CharlesTBetz/5mlowroad (public).
+- **Deploy:** push to `main` → `.github/workflows/jekyll.yml` (GitHub Actions) builds
+  and deploys to GitHub Pages. Runs green (Node/gem deprecation warnings are noise).
+- **DNS/TLS:** domain is proxied through **Cloudflare** (not raw Pages A-records).
+  Cloudflare terminates TLS, so GitHub's own cert state stays `none` — that's expected.
+  "Always Use HTTPS" is on in Cloudflare.
 
-- Full Jekyll site is built: pages (`index`, `listen`, `subscribe`, `about`,
-  `contact`), `/go/listen` + `/go/subscribe` redirect stubs, layouts
-  (`default`/`page`/`listen`), includes (`header`/`footer`/`audio-player`/
-  `song-card`), `assets/css/main.css`, `_config.yml`, `Gemfile`, `CNAME`
-  (`5mlowroad.com`), `README.md`, and `.github/workflows/jekyll.yml`
-  (GitHub Actions Pages deploy via `jekyll-build-pages` + `deploy-pages`).
-- Verified: `bundle exec jekyll build` runs clean; all routes 200; `/go/listen/`
-  redirects to `/listen/`; desktop + mobile render correctly; mobile hamburger
-  nav toggles open. Sitemap and `{% seo %}` metadata generate.
-- The redirect stubs are `.html` (not `.md` as the original spec showed) because
-  Kramdown mangles `<!DOCTYPE>` in markdown; the `permalink` keeps the
-  `/go/...` URLs identical. Keep them as `.html`.
+### Design system (implemented in `assets/css/main.css`)
+- Palette: indigo `#4b46b3` (links/CTAs), gold `#D4AA60` (show title/hover/dividers),
+  lavender `#9B88BC`, copper `#C47860`, warm paper `#F5F2EE`, ink `#1C2340`. **No teal.**
+- Type: **Cinzel** = show title only (`.show-title`, gold, uppercase); **Cormorant
+  Garamond** = h1/h2/display; **EB Garamond** = body/h3+; **Gill Sans** system stack = nav/labels.
+- Indigo masthead + footer; full-bleed hero (`assets/images/hero.jpg`, Luke's
+  tunnel-of-light, with a bottom gradient scrim for gold-title legibility);
+  spiral-ornament divider `{% include divider.html %}`; favicon = the luminous spiral.
 
-## Environment (important)
+### Pages
+Home (`index.md`), Listen (song descriptions from the story), About (show-only),
+**The Research** (`research.md` — NDE science, the IANDS-audience standout), **Gallery**
+(`gallery.md` — 5 of Luke's pieces), **Team** (`team.md` — DRAFT bios, need Charles's edits),
+Subscribe (styled fallback signup), Contact, + `/go/listen` `/go/subscribe` redirect stubs.
 
-Local Jekyll requires the Homebrew Ruby, NOT macOS system Ruby (2.6, too old):
+### Privacy: `source/` is git-ignored AND build-excluded
+Brochure PDF + Luke's hi-res originals stay local only — never in the public repo or
+the site. Web-optimized derivatives live in `assets/images/` (+ `gallery/`).
 
-```bash
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-bundle install
-bundle exec jekyll serve   # http://localhost:4000
-```
+## What remains (Charles's — all marked in-file as HTML comments)
 
-## What remains
+1. **Kit email form** (free ConvertKit). Create account at kit.com → Grow → Landing
+   Pages & Forms → + Create New → Form → Inline → email-only → Publish/Embed → copy the
+   HTML snippet. Paste it at the two `<!-- KIT_FORM_EMBED_HERE -->` markers
+   (`subscribe.md` primary + `_includes/footer.html` compact) and delete the
+   `.signup-fallback` block in subscribe.md. Free up to ~10k subscribers.
+2. **Formspree ID** — replace `FORMSPREE_ID` in `contact.md`.
+3. **Audio** — MP3s into `assets/audio/` (song-card `src` paths in `listen.md`:
+   leaderboard / this-was-you / earth-was-the-dream / this-side-of-tomorrow) +
+   podcast iframe at `<!-- PODCAST_PLAYER_EMBED_HERE -->` in `listen.md`.
+4. **Team** — headshots + edit the two DRAFT bios in `team.md`.
+5. **Gallery** — snowflake caption (`<!-- TODO: caption -->` in `gallery.md`).
 
-1. **GitHub repo + push (blocked in prior session).** `gh`'s stored token is
-   invalid, so the repo was never created or pushed. It needs an interactive
-   `gh auth login` that Charles must run himself. Do NOT attempt to enter
-   credentials. Once Charles has authenticated, the commands are:
-   ```bash
-   gh auth login -h github.com                 # Charles runs this
-   gh repo create 5mlowroad --public --source=. --remote=origin --push
-   ```
-   Then on GitHub: Settings → Pages → Source: **GitHub Actions**.
+## Environment quirks (this Mac) — IMPORTANT
 
-2. **Placeholders Charles fills later** (all clearly marked in-file; documented
-   in `README.md`): Kit form embed (`<!-- KIT_FORM_EMBED_HERE -->` in
-   `subscribe.md` and `_includes/footer.html`), Formspree ID (`FORMSPREE_ID` in
-   `contact.md`), podcast iframe (`<!-- PODCAST_PLAYER_EMBED_HERE -->` in
-   `listen.md`), MP3s in `assets/audio/`, hero image swap in `main.css`,
-   and copy marked `<!-- TODO -->` throughout. Only touch these if Charles
-   provides the actual content.
-
-## Rules of engagement
-
-- Anything that publishes (repo creation, push, DNS) is Charles's call — confirm
-  or hand him the exact commands; don't do it silently.
-- Verify changes by building/serving and observing in the browser, not just by
-  asserting success.
+- **Local dev/build needs Homebrew Ruby**, not system Ruby:
+  `export PATH="/opt/homebrew/opt/ruby/bin:$PATH"` then `bundle exec jekyll serve --no-watch`
+  (rebuild with `bundle exec jekyll build` after edits when using `--no-watch`).
+- **git push:** three traps — an invalid `GITHUB_TOKEN` in `~/.zshrc`, a global
+  `url.git@github.com:.insteadOf https://github.com/` rewrite, and blocked SSH port 22.
+  Push recipe:
+  ```
+  git config --global --unset url.git@github.com:.insteadof
+  env -u GITHUB_TOKEN git push origin main
+  git config --global url."git@github.com:".insteadOf "https://github.com/"   # restore
+  ```
+  Use `env -u GITHUB_TOKEN gh ...` for all gh commands.
+- **Screenshot verification:** headless Chrome exists at
+  `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`. macOS enforces a
+  ~500px min window width, so for true phone widths use CDP
+  `Emulation.setDeviceMetricsOverride` (see /tmp/measure2.mjs pattern), not `--window-size`.
+- Publishing (push, DNS, anything outward-facing) is Charles's call — confirm first.
