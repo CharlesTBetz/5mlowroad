@@ -225,22 +225,33 @@ p { margin: 0 0 1.1em; }
   /* Hero image: tanya-light-square.png from Luke O'Leary */
   background-color: #D0D8E8;        /* fallback until image loads */
   background-image:
-    linear-gradient(to bottom, rgba(28,35,64,0) 28%, rgba(28,35,64,0.35) 60%, rgba(28,35,64,0.92) 100%),
+    radial-gradient(115% 78% at 100% 100%,
+      rgba(28,35,64,0.72) 0%,
+      rgba(28,35,64,0.3) 30%,
+      rgba(28,35,64,0) 56%),
+    linear-gradient(to bottom,
+      rgba(28,35,64,0.85) 0%,
+      rgba(28,35,64,0.45) 20%,
+      rgba(28,35,64,0) 40%,
+      rgba(28,35,64,0) 54%,
+      rgba(28,35,64,0.6) 80%,
+      rgba(28,35,64,0.93) 100%),
     url('/assets/images/hero.jpg');
-  background-size: cover, cover;
-  background-position: center top, center top;
+  background-size: cover, cover, cover;
+  background-position: center, center, center 42%;
   min-height: 78vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 3rem 1.5rem 2.5rem;
 }
-.hero-text { max-width: 40rem; margin: 0 auto; width: 100%; min-width: 0; }
+.hero-top,
+.hero-bottom { max-width: 40rem; margin: 0 auto; width: 100%; min-width: 0; }
 .hero-title {
   font-size: clamp(1.4rem, 5.6vw, 3.2rem);
   letter-spacing: 0.08em;
   line-height: 1.22;
-  text-shadow: 0 2px 22px rgba(0,0,0,0.42), 0 1px 2px rgba(0,0,0,0.35);
+  text-shadow: 0 2px 20px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.7);
   overflow-wrap: break-word;
 }
 .hero-subtitle {
@@ -299,9 +310,18 @@ p { margin: 0 0 1.1em; }
 .btn-secondary:hover, .btn-secondary:focus {
   border-color: var(--glow); color: var(--glow); background: transparent;
 }
-/* On the hero's dark scrim, secondary buttons need light strokes */
-.hero .btn-secondary { color: var(--white); border-color: rgba(255,255,255,0.75); }
-.hero .btn-secondary:hover, .hero .btn-secondary:focus { color: var(--glow); border-color: var(--glow); }
+/* On the hero's dark scrim: secondary buttons stay readable but sit a clear
+   step below the filled "Listen" primary — a light frosted ghost treatment. */
+.hero .btn-secondary {
+  background: rgba(255,255,255,0.1);
+  color: var(--white);
+  border-color: rgba(255,255,255,0.5);
+}
+.hero .btn-secondary:hover, .hero .btn-secondary:focus {
+  background: rgba(255,255,255,0.18);
+  color: var(--glow);
+  border-color: var(--glow);
+}
 
 /* ----- Content blocks ----------------------------------------------------- */
 .logline {
@@ -549,6 +569,14 @@ hr, .divider {
   .site-nav-menu a { padding: 0.25rem 0; }
 
   .cta-row { flex-direction: row; justify-content: center; flex-wrap: wrap; }
-  .hero .cta-row { justify-content: flex-start; }
+  .hero .cta-row { justify-content: flex-end; }
+  /* Nudge the title + subtitle block up ~0.4in on the hero. */
+  .hero-top { transform: translateY(-0.4in); }
+  /* Right-justify the lower hero block and shift it right ~2in, clamped so it
+     never overflows or comes within 2rem of the right edge on smaller desktops. */
+  .hero-bottom {
+    text-align: right;
+    transform: translateX(max(0px, min(2in, calc(50vw - 22rem))));
+  }
   .btn { min-width: 11rem; }
 }

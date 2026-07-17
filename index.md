@@ -6,14 +6,16 @@ description: A new musical about near-death experience, empathy, and transformat
 
 <!-- Hero: tanya-light-square.png from Luke O'Leary (set as background in .hero / main.css) -->
 <section class="hero">
-  <div class="hero-text">
+  <div class="hero-top">
     <h1 class="show-title hero-title">Five Minutes on the Low Road</h1>
-    <p class="hero-subtitle">A new musical</p>
-    <p class="hero-credit">Book, lyrics &amp; music by Charles T. Betz</p>
+    <p class="hero-subtitle">A near-death musical</p>
+  </div>
+  <div class="hero-bottom">
+    <p class="hero-credit">Book, music, lyrics, and original concept by Charles T. Betz.<br>Additional book, lyrics, and music by Josiah Thomas Turner.<br>Dramaturgy by Josiah Thomas Turner.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="{{ '/listen/' | relative_url }}">Listen</a>
       <a class="btn btn-secondary" href="{{ '/research/' | relative_url }}">The Research</a>
       <a class="btn btn-secondary" href="{{ '/subscribe/' | relative_url }}">Stay in Touch</a>
+      <a class="btn btn-primary" href="{{ '/listen/' | relative_url }}">Listen</a>
     </div>
   </div>
 </section>
@@ -27,7 +29,7 @@ description: A new musical about near-death experience, empathy, and transformat
 
 <!-- Brief show description -->
 <section class="section">
-  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table &mdash; and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya Chen, a ruthless pharma executive who collapses at a medical conference and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
+  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table &mdash; and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya McDermott, a ruthless pharma executive who collapses at a medical conference and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
 </section>
 
 <!-- Featured song -->

@@ -9,7 +9,7 @@ permalink: /about/
 
 Most of us have heard of near-death experiences. A person flatlines on the operating table — and comes back with a story. Tunnel of light, bliss, life review, and they either decide to return, or they are simply sent back.
 
-*Five Minutes on the Low Road* follows **Tanya Chen**, a pharmaceutical executive who collapses at a medical conference and has a textbook near-death experience — complete with life review, an encounter with a guide, and a choice. She returns transformed. The people around her are not prepared for who she becomes.
+*Five Minutes on the Low Road* follows **Tanya McDermott**, a pharmaceutical executive who collapses at a medical conference and has a textbook near-death experience — complete with life review, an encounter with a guide, and a choice. She returns transformed. The people around her are not prepared for who she becomes.
 
 {% include divider.html %}
 
