@@ -1,36 +1,45 @@
 /* ==========================================================================
    Five Minutes on the Low Road — main.css
+   Design language derived from Luke O'Leary's illustrations (see source/design-guide.md).
    Mobile-first, plain CSS, no framework.
-   Register: literary, minimal, slightly otherworldly (chapbook meets memoir).
+   Register: literary, ethereal, intellectually serious — chapbook meets memoir.
    ========================================================================== */
 
 :root {
-  --bg:            #f8f6f2;  /* warm, paper-like near-white */
-  --text:          #1a1a1a;  /* near-black */
-  --accent:        #2a6b6b;  /* deep teal — the "other side" color */
-  --accent-dark:   #1f4f4f;  /* darker teal for hover/active */
-  --gold:          #c9a84c;  /* warm gold — sparing highlights */
-  --rule:          #e2ddd3;  /* hairline rules on the paper bg */
+  /* ----- Color system (from Luke's paintings) ----------------------------- */
+  --bg:        #F5F2EE;   /* warm near-white, paper-like */
+  --ink:       #1C2340;   /* deep blue-black body text */
+  --primary:   #4b46b3;   /* indigo — links, CTAs, active states */
+  --glow:      #D4AA60;   /* warm gold — show title, hover, dividers */
+  --lavender:  #9B88BC;   /* violet midtone — illustrative accent, not UI */
+  --copper:    #C47860;   /* warm earth — detail accent, sparing */
+  --white:     #FFFFFF;
 
-  --font-body:   'EB Garamond', Georgia, 'Times New Roman', serif;
-  --font-head:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --ink-70:    rgba(28, 35, 64, 0.7);
+  --ink-45:    rgba(28, 35, 64, 0.45);
+  --rule:      #e5ddd0;   /* hairline on paper */
 
-  --measure:     42rem;      /* comfortable reading width */
-  --tap:         44px;       /* minimum touch target */
+  /* ----- Type ------------------------------------------------------------- */
+  --font-title:   'Cinzel', 'Trajan Pro', serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans:    'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  --measure:   42.5rem;    /* ~680px comfortable reading width */
+  --tap:       44px;       /* minimum touch target */
 }
 
 /* ----- Reset-ish ---------------------------------------------------------- */
 *, *::before, *::after { box-sizing: border-box; }
-
 html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
   background: var(--bg);
-  color: var(--text);
+  color: var(--ink);
   font-family: var(--font-body);
-  font-size: 16px;          /* mobile base */
-  line-height: 1.7;
+  font-size: 16px;                 /* mobile base */
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -38,26 +47,80 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 
 a {
-  color: var(--accent);
+  color: var(--primary);
   text-decoration: underline;
   text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease;
 }
-a:hover, a:focus { color: var(--accent-dark); }
+a:hover, a:focus { color: var(--glow); }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-head);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-  margin: 0 0 0.5em;
-}
-
-/* Focus visibility for keyboard users */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
+
+/* ----- Typography hierarchy ---------------------------------------------- */
+
+/* Show title — used ONLY for "Five Minutes on the Low Road" */
+.show-title {
+  font-family: var(--font-title);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--glow);
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Display headings */
+h1, h2, .display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.15;
+  margin: 0 0 0.4em;
+}
+h1 { font-size: 2.4rem; font-weight: 300; }
+h2 { font-size: 1.9rem; font-weight: 300; font-style: italic; }
+.display { font-weight: 300; }
+
+/* Small headings + body share EB Garamond */
+h3, h4 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 0.4em;
+}
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.1rem; }
+
+p { margin: 0 0 1.1em; }
+
+/* Navigation / labels / captions */
+.label, .caption {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-70);
+}
+
+/* Pull quote / emphasis block */
+.pullquote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  color: var(--primary);
+  border: 0;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+/* Drop-lead: first-paragraph lead-in */
+.lead { font-size: 1.2rem; color: var(--ink); }
 
 /* ----- Layout scaffold ---------------------------------------------------- */
 .site-main { min-height: 60vh; }
@@ -65,40 +128,55 @@ button:focus-visible {
 .page, .listen-content {
   max-width: var(--measure);
   margin: 0 auto;
-  padding: 2rem 1.25rem 3rem;
+  padding: 2.5rem 1.25rem 3rem;
 }
-
 .listen-content { max-width: 46rem; }
 
-.page-header { margin-bottom: 1.5rem; }
-.page-title { font-size: 2rem; }
-.page-subtitle { font-family: var(--font-body); font-style: italic; color: #444; margin-top: -0.25em; }
-
-/* ----- Header / navigation ------------------------------------------------ */
-.site-header {
-  border-bottom: 1px solid var(--rule);
-  background: var(--bg);
+.page-header { margin-bottom: 1.75rem; }
+.page-title { font-size: 2.1rem; }
+.page-subtitle {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--ink-70);
+  margin-top: -0.2em;
 }
 
+.section { margin: 2.5rem 0; }
+.section-heading {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: var(--ink);
+}
+
+/* ----- Header / navigation (deep-indigo masthead, gold wordmark) --------- */
+.site-header {
+  background: var(--ink);
+  border-bottom: 2px solid var(--glow);
+}
 .site-nav {
-  max-width: 60rem;
+  max-width: 64rem;
   margin: 0 auto;
-  padding: 0.75rem 1.25rem;
+  padding: 0.85rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .site-title {
-  font-family: var(--font-head);
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--text);
+  font-family: var(--font-title);
+  font-size: 0.98rem;
+  font-weight: 400;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--glow);
   text-decoration: none;
-  letter-spacing: 0.02em;
-  max-width: 70%;
+  max-width: 74%;
+  line-height: 1.3;
 }
+.site-title:hover, .site-title:focus { color: var(--white); }
 
 .nav-toggle {
   display: inline-flex;
@@ -117,7 +195,7 @@ button:focus-visible {
   width: 24px;
   height: 2px;
   margin: 0 auto;
-  background: var(--text);
+  background: var(--bg);
 }
 
 .site-nav-menu {
@@ -125,43 +203,63 @@ button:focus-visible {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* hidden by default on mobile until toggled */
-  display: none;
+  display: none;                    /* hidden on mobile until toggled */
 }
 .site-nav-menu.is-open { display: block; }
-
-.site-nav-menu li { border-top: 1px solid var(--rule); }
+.site-nav-menu li { border-top: 1px solid rgba(245,242,238,0.12); }
 .site-nav-menu a {
   display: block;
-  font-family: var(--font-head);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   text-decoration: none;
-  color: var(--text);
+  color: var(--bg);
   padding: 0.85rem 0.25rem;
   min-height: var(--tap);
 }
-.site-nav-menu a:hover,
-.site-nav-menu a:focus { color: var(--accent); }
+.site-nav-menu a:hover, .site-nav-menu a:focus { color: var(--glow); }
 
-/* ----- Hero --------------------------------------------------------------- */
+/* ----- Hero (full-bleed illustration) ------------------------------------ */
 .hero {
-  /* TODO: replace background-color with background-image: url('/assets/images/hero.jpg') */
-  background-color: var(--accent);
-  color: #fff;
-  text-align: center;
-  padding: 4rem 1.25rem;
+  /* Hero image: tanya-light-square.png from Luke O'Leary */
+  background-color: #D0D8E8;        /* fallback until image loads */
+  background-image:
+    linear-gradient(to bottom, rgba(28,35,64,0) 28%, rgba(28,35,64,0.35) 60%, rgba(28,35,64,0.92) 100%),
+    url('/assets/images/hero.jpg');
+  background-size: cover, cover;
+  background-position: center top, center top;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3rem 1.5rem 2.5rem;
 }
+.hero-text { max-width: 40rem; margin: 0 auto; width: 100%; min-width: 0; }
 .hero-title {
-  color: #fff;
-  font-size: 2.4rem;
-  margin-bottom: 0.25em;
-  text-shadow: 0 1px 12px rgba(0,0,0,0.25);
+  font-size: clamp(1.4rem, 5.6vw, 3.2rem);
+  letter-spacing: 0.08em;
+  line-height: 1.22;
+  text-shadow: 0 2px 22px rgba(0,0,0,0.42), 0 1px 2px rgba(0,0,0,0.35);
+  overflow-wrap: break-word;
 }
 .hero-subtitle {
-  font-family: var(--font-body);
+  font-family: var(--font-display);
   font-style: italic;
-  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: var(--white);
+  margin: 0.6rem 0 0.3rem;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.4);
+}
+.hero-credit {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
   margin: 0;
-  color: #f3efe6;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.45);
 }
 
 /* ----- Buttons / CTAs ----------------------------------------------------- */
@@ -169,76 +267,203 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  margin: 1.5rem 0;
+  margin: 1.75rem 0;
 }
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-height: var(--tap);
-  padding: 0.7rem 1.4rem;
-  font-family: var(--font-head);
-  font-size: 1.05rem;
+  padding: 0.7rem 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
   text-decoration: none;
   border-radius: 2px;
-  border: 2px solid var(--accent);
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover, .btn-primary:focus { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
-.btn-secondary { background: transparent; color: var(--accent); }
-.btn-secondary:hover, .btn-secondary:focus { background: var(--accent); color: #fff; }
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  border: 1.5px solid var(--primary);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: var(--glow); border-color: var(--glow); color: var(--ink);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 1.5px solid var(--primary);
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  border-color: var(--glow); color: var(--glow); background: transparent;
+}
+/* On the hero's dark scrim, secondary buttons need light strokes */
+.hero .btn-secondary { color: var(--white); border-color: rgba(255,255,255,0.75); }
+.hero .btn-secondary:hover, .hero .btn-secondary:focus { color: var(--glow); border-color: var(--glow); }
 
 /* ----- Content blocks ----------------------------------------------------- */
 .logline {
-  font-size: 1.3rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 300;
   font-style: italic;
+  line-height: 1.4;
   text-align: center;
-  color: #333;
-  margin: 1.5rem auto;
+  color: var(--ink);
+  margin: 1.75rem auto;
   max-width: var(--measure);
 }
 
-.section { margin: 2.5rem 0; }
-.section-heading { font-size: 1.5rem; border-bottom: 2px solid var(--gold); display: inline-block; padding-bottom: 0.15em; }
-
-hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+/* ----- Dividers ----------------------------------------------------------- */
+hr, .divider {
+  border: none;
+  border-top: 1px solid var(--glow);
+  opacity: 0.4;
+  margin: 3rem 0;
+}
+.section-divider { text-align: center; margin: 3rem 0; line-height: 0; }
+.section-divider svg { display: inline-block; }
 
 /* ----- Audio players ------------------------------------------------------ */
 .audio-player { margin: 1rem 0; }
-.audio-player-title { font-family: var(--font-head); margin: 0 0 0.4rem; }
-.audio-player-el { width: 100%; }   /* full-width on mobile */
+.audio-player-title { font-family: var(--font-body); font-weight: 600; margin: 0 0 0.4rem; }
+.audio-player-el { width: 100%; }
 
 .podcast-embed {
-  background: #fff;
+  background: var(--white);
   border: 1px solid var(--rule);
   border-radius: 3px;
   padding: 1.25rem;
   margin: 1.25rem 0;
 }
 .podcast-embed iframe { width: 100%; border: 0; }
+.podcast-placeholder {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--ink-45);
+  text-align: center;
+  padding: 2rem 1rem;
+}
 
 /* ----- Song cards --------------------------------------------------------- */
 .song-card {
   border: 1px solid var(--rule);
+  border-left: 3px solid var(--glow);
   border-radius: 3px;
   background: #fffdf9;
-  padding: 1.25rem;
-  margin: 1rem 0;
+  padding: 1.25rem 1.4rem;
+  margin: 1.1rem 0;
 }
-.song-card-title { font-size: 1.2rem; margin-bottom: 0.25rem; }
-.song-card-description { margin-top: 0; color: #444; }
+.song-card-title { font-size: 1.25rem; margin-bottom: 0.2rem; color: var(--primary); }
+.song-card-description { margin-top: 0; color: var(--ink-70); font-style: italic; }
+
+/* ----- Gallery ------------------------------------------------------------ */
+.gallery-intro {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  color: var(--lavender);
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.gallery-item { margin: 0; }
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(212, 170, 96, 0.35);   /* faint gold border */
+  background: var(--white);
+}
+.gallery-caption {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--lavender);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+.gallery-attribution {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--ink-45);
+  text-align: center;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* Duotone treatment for the B&W ink pieces (indigo wash) */
+.duotone {
+  position: relative;
+  background: var(--primary);
+  overflow: hidden;
+}
+.duotone img {
+  mix-blend-mode: luminosity;
+  opacity: 0.92;
+}
+
+/* Inline illustration accent within prose */
+.illus {
+  margin: 2rem 0;
+  border: 1px solid rgba(212,170,96,0.3);
+}
+.illus-caption {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--lavender);
+  font-style: italic;
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+/* ----- Research page: stat list ------------------------------------------ */
+.stat-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+.stat-list li {
+  padding: 0.6rem 0 0.6rem 1.5rem;
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+}
+.stat-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 1.1rem;
+  width: 8px; height: 8px;
+  background: var(--glow);
+  border-radius: 50%;
+}
 
 /* ----- Forms (subscribe / contact) --------------------------------------- */
-.kit-form, .contact-form {
+.kit-form, .contact-form, .signup-fallback {
   max-width: 30rem;
-  margin: 1.5rem auto;
+  margin: 1.75rem auto;
+}
+.signup-fallback {
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--glow);
+  border-radius: 3px;
+  padding: 1.5rem;
+  text-align: center;
 }
 .form-field { margin-bottom: 1rem; }
 .form-field label {
   display: block;
-  font-family: var(--font-head);
-  font-size: 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
   margin-bottom: 0.3rem;
+  color: var(--ink-70);
 }
 .form-field input,
 .form-field textarea {
@@ -248,46 +473,82 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   padding: 0.65rem 0.75rem;
   border: 1px solid #c9c2b4;
   border-radius: 2px;
-  background: #fff;
+  background: var(--white);
+  color: var(--ink);
 }
+.form-field input:focus,
+.form-field textarea:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
 .form-field textarea { min-height: 8rem; resize: vertical; }
-.form-promise { text-align: center; font-size: 0.95rem; color: #666; font-style: italic; }
+.form-promise {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--ink-45);
+  font-style: italic;
+}
 
 /* ----- Footer ------------------------------------------------------------- */
 .site-footer {
-  border-top: 1px solid var(--rule);
-  margin-top: 3rem;
-  padding: 2rem 1.25rem;
+  background: var(--ink);
+  color: var(--bg);
+  margin-top: 3.5rem;
+  padding: 2.5rem 1.25rem;
   font-size: 0.95rem;
 }
-.footer-signup, .footer-meta {
-  max-width: 60rem;
-  margin: 0 auto;
+.footer-inner { max-width: 64rem; margin: 0 auto; }
+.footer-signup { margin-bottom: 1.5rem; }
+.footer-signup-label {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--glow);
+  margin: 0 0 0.4rem;
 }
-.footer-signup { margin-bottom: 1.25rem; }
-.footer-signup-label { font-family: var(--font-head); margin: 0 0 0.4rem; }
-.footer-meta p { margin: 0.2rem 0; color: #555; }
+.footer-signup a, .footer-nav a, .footer-meta a { color: var(--bg); }
+.footer-signup a:hover, .footer-nav a:hover, .footer-meta a:hover { color: var(--glow); }
+
+.footer-nav {
+  list-style: none;
+  margin: 1.25rem 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(245,242,238,0.15);
+  border-bottom: 1px solid rgba(245,242,238,0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
+.footer-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer-meta p { margin: 0.2rem 0; color: rgba(245,242,238,0.7); }
 
 /* ==========================================================================
    Desktop / larger screens
    ========================================================================== */
 @media (min-width: 40em) {
-  body { font-size: 18px; }        /* 18px / 1.7 on desktop */
+  body { font-size: 18px; }         /* 18px / 1.75 on desktop */
 
-  .page-title { font-size: 2.5rem; }
-  .hero-title { font-size: 3.4rem; }
-  .hero { padding: 6rem 1.25rem; }
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.2rem; }
+  .page-title { font-size: 2.6rem; }
+  .hero-subtitle { font-size: 1.7rem; }
+  .hero { min-height: 82vh; padding: 4rem 2rem 3rem; }
 
   /* Nav becomes a horizontal bar; hide the toggle */
   .nav-toggle { display: none; }
   .site-nav-menu {
-    display: flex;                 /* always visible on desktop */
+    display: flex;
     width: auto;
-    gap: 1.5rem;
+    gap: 1.6rem;
   }
   .site-nav-menu li { border-top: 0; }
   .site-nav-menu a { padding: 0.25rem 0; }
 
-  .cta-row { flex-direction: row; justify-content: center; }
-  .btn { min-width: 12rem; }
+  .cta-row { flex-direction: row; justify-content: center; flex-wrap: wrap; }
+  .hero .cta-row { justify-content: flex-start; }
+  .btn { min-width: 11rem; }
 }

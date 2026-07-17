@@ -68,14 +68,20 @@ No form ID is hardcoded anywhere — paste the full embed Kit gives you.
 In `contact.md`, replace the placeholder `FORMSPREE_ID` in
 `action="https://formspree.io/f/FORMSPREE_ID"` with your real Formspree form ID.
 
-### 5. Add the hero image
-When Luke O'Leary's hero illustration is ready:
+### 5. Hero image
+The hero already uses Luke O'Leary's tunnel-of-light illustration
+(`assets/images/hero.jpg`). To swap it, replace that file (keep the name), or
+edit the `background-image` in the `.hero` rule in `assets/css/main.css`. A dark
+gradient scrim is layered over the bottom for title legibility — adjust it there
+if you change to a much darker or lighter image.
 
-1. Save it to `assets/images/hero.jpg`.
-2. In `assets/css/main.css`, find the `.hero` rule and replace
-   `background-color: var(--accent);` with
-   `background-image: url('/assets/images/hero.jpg'); background-size: cover; background-position: center;`
-   (a `TODO` comment marks the spot).
+### 5b. Adding gallery images
+Gallery images live in `assets/images/gallery/` and are listed by filename in
+`gallery.md`. To add a new illustration: drop the file in that directory
+(optimize large PNGs to JPG first — see the `magick ... -resize 1200x -quality 82`
+commands used for the existing set), then add a `<figure class="gallery-item">`
+block with an `<img>` and `<figcaption class="gallery-caption">` in `gallery.md`.
+Source originals are kept in `source/` (excluded from the build).
 
 ### 6. Analytics (optional, off by default)
 `_layouts/default.html` has a commented-out Plausible/GA snippet in `<head>`.

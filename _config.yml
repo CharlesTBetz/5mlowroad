@@ -23,4 +23,5 @@ exclude:
   - README.md
   - claude-code-jekyll-prompt.md
   - HANDOFF.md
+  - source          # working files: brochure PDF, design docs, Luke's hi-res originals — not for publication
   - vendor

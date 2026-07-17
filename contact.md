@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
 description: For industry inquiries, press, and collaboration.
+permalink: /contact/
 ---
 
 For industry inquiries, press, and collaboration.
