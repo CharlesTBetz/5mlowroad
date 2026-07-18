@@ -5,7 +5,7 @@ description: Join the email list for development updates, new song releases, and
 permalink: /subscribe/
 ---
 
-<p class="lead">Emails will be occasional, and no contacts will be shared. We anticipate a Kickstarter campaign and ongoing updates about readings, competition submissions, new song releases, and the show's further development.</p>
+<p class="lead">Emails will be occasional and will include Charles' Substack posts and composing activities, as well as specific updates on Five Minutes: ongoing updates about readings, competition submissions, new song releases, and the show's further development, possibly including Kickstarter or similar campaigns. No emails will be shared. </p>
 
 <!-- Kit (ConvertKit) signup form -->
 <div class="kit-form">

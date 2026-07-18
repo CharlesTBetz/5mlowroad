@@ -29,7 +29,7 @@ description: A new musical about near-death experience, empathy, and transformat
 
 <!-- Brief show description -->
 <section class="section">
-  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table &mdash; and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya McDermott, a ruthless pharma executive who crashes her car and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
+  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table &mdash; and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya McDermott, a driven pharma executive who crashes her car and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
 </section>
 
 <!-- Featured song -->
