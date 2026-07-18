@@ -10,3 +10,6 @@ vendor/
 # Working source material — brochure PDF, design docs, Luke's hi-res originals.
 # Kept local only; NOT published to the public repo or the built site.
 source/
+
+# R session history — never commit
+.Rhistory
