@@ -9,8 +9,8 @@ For industry inquiries, press, and collaboration.
 
 Direct email: [char@charlestbetz.com](mailto:char@charlestbetz.com)
 
-<!-- Formspree contact form. Replace FORMSPREE_ID with the real form ID. -->
-<form class="contact-form" action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+<!-- Formspree contact form -> char@charlestbetz.com -->
+<form class="contact-form" action="https://formspree.io/f/mbdnoall" method="POST">
   <div class="form-field">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" required>
