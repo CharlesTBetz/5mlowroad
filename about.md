@@ -27,9 +27,7 @@ The show is currently in development under the auspices of the New Musical Theat
 
 Multiple drafts of the script have been reviewed by musical theater professionals, including those at New Musicals, Incorporated (www.nmi.org) and Nautilus Music-Theater in St. Paul, Minnesota.
 
-## Creative team
-Charles Thomas Betz
-Josiah Thomas Turner
+Meet the [creative team]({{ '/team/' | relative_url }}) &rarr;
 
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">The NDE Research</a>

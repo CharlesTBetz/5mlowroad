@@ -33,4 +33,12 @@ Josiah Thomas Turner is a writer, musician, and theater-maker. He holds an MFA i
 
 {% include divider.html %}
 
-<p class="label">Book, lyrics, and music by Charles T. Betz. Additional book, lyrics, and music by Josiah Thomas Turner. Dramaturgy by Josiah Thomas Turner.</p>
+## Luke O'Leary
+<p class="label">Illustration</p>
+
+<!-- TODO: headshot + bio for Luke O'Leary -->
+Luke O'Leary created the illustrations for *Five Minutes on the Low Road* — the tunnel-of-light hero art and the gallery pieces. Full bio coming soon.
+
+{% include divider.html %}
+
+<p class="label">Book, lyrics, and music by Charles T. Betz. Additional book, lyrics, and music by Josiah Thomas Turner. Dramaturgy by Josiah Thomas Turner. Illustrations by Luke O'Leary.</p>
