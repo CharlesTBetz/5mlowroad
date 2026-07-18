@@ -35,8 +35,8 @@ description: A new musical about near-death experience, empathy, and transformat
 <!-- Featured song -->
 <section class="section">
   <h2 class="section-heading">Featured Song</h2>
-  {% include song-card.html title="This Side of Tomorrow" src="/assets/audio/this-side-of-tomorrow.mp3" description="The closing promise — a life reclaimed for the here and now." %}
-  <p><a href="{{ '/listen/' | relative_url }}">Hear the full audio experience &rarr;</a></p>
+  {% include song-card.html title="Earth Was the Dream" description="On the other side, in a garden where the flowers sing. More real than real — and almost impossible to leave. Performed by Lia." youtube="epX-xNt6h90" %}
+  <p><a href="{{ '/listen/' | relative_url }}">Watch and listen to more &rarr;</a></p>
 </section>
 
 </div>

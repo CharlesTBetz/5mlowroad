@@ -1,12 +1,16 @@
 {% comment %}
-  Individual song card: title, description, and an audio player.
+  Song card: title, description, and either a YouTube video (click-to-load)
+  or a "video coming soon" note.
   Usage:
-    {% include song-card.html title="Song Title" src="/assets/audio/song.mp3" description="..." %}
+    {% include song-card.html title="Song" description="..." youtube="VIDEO_ID" %}
+    {% include song-card.html title="Song" description="..." %}   (video coming soon)
 {% endcomment %}
 <div class="song-card">
   <h3 class="song-card-title">{{ include.title }}</h3>
-  <p class="song-card-description">
-    {% if include.description %}{{ include.description }}{% else %}<!-- TODO: description -->{% endif %}
-  </p>
-  {% include audio-player.html src=include.src %}
+  {% if include.description %}<p class="song-card-description">{{ include.description }}</p>{% endif %}
+  {% if include.youtube %}
+    {% include youtube-embed.html id=include.youtube title=include.title %}
+  {% else %}
+    <p class="song-card-comingsoon">Video coming soon.</p>
+  {% endif %}
 </div>

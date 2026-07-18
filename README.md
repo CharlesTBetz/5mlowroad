@@ -40,23 +40,18 @@ Then open <http://localhost:4000>. Use `--livereload` for auto-refresh on edits.
 
 ## Post-build setup checklist (things Charles needs to do)
 
-### 1. Add audio files
-Drop MP3s into `assets/audio/`, then update the `src` paths in the song cards.
+### 1. Add music & video (YouTube)
+The site is 100% YouTube for music — no self-hosted audio. Each song card takes
+a `youtube="VIDEO_ID"`; without one it shows "Video coming soon." Videos are
+click-to-load (a thumbnail facade swaps in a `youtube-nocookie` iframe only when
+clicked, so nothing loads and no tracking fires until play).
 
-- Home featured song: `index.md`
-- All songs: `listen.md` (each `{% include song-card.html ... src="..." %}`)
+- Home featured video: `index.md`
+- Song list: `listen.md` (each `{% include song-card.html ... youtube="ID" %}`)
+- Concept recording: drop `{% include youtube-embed.html id="ID" title="..." %}`
+  into the "The concept recording" section of `listen.md` when that video exists.
 
-Filenames currently referenced (create these, or change the `src` to match your
-files):
-`this-side-of-tomorrow.mp3`, `earth-was-the-dream.mp3`, `this-was-you.mp3`,
-`leaderboard.mp3`.
-
-### 2. Add the podcast player
-On `listen.md`, replace the comment
-`<!-- PODCAST_PLAYER_EMBED_HERE ... -->` with the iframe embed from your podcast
-host (Buzzsprout, Transistor, etc.).
-
-### 3. Set up the Kit (ConvertKit) email form
+### 2. Set up the Kit (ConvertKit) email form
 Paste your Kit form embed code at every `<!-- KIT_FORM_EMBED_HERE -->` marker:
 
 - `subscribe.md` — the primary, prominent signup form (email-only variant)
@@ -64,11 +59,11 @@ Paste your Kit form embed code at every `<!-- KIT_FORM_EMBED_HERE -->` marker:
 
 No form ID is hardcoded anywhere — paste the full embed Kit gives you.
 
-### 4. Set up the Formspree contact form
+### 3. Set up the Formspree contact form
 In `contact.md`, replace the placeholder `FORMSPREE_ID` in
 `action="https://formspree.io/f/FORMSPREE_ID"` with your real Formspree form ID.
 
-### 5. Hero image
+### 4. Hero image
 The hero already uses Luke O'Leary's tunnel-of-light illustration
 (`assets/images/hero.jpg`). To swap it, replace that file (keep the name), or
 edit the `background-image` in the `.hero` rule in `assets/css/main.css`. A dark

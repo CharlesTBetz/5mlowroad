@@ -1,0 +1,15 @@
+{% comment %}
+  Click-to-load YouTube facade. Shows a thumbnail + play button; the actual
+  (privacy-friendly, nocookie) iframe is injected only when the visitor clicks —
+  keeps the page light and loads zero YouTube tracking until play.
+  Handler lives in _layouts/default.html.
+  Usage: {% include youtube-embed.html id="VIDEO_ID" title="Title" %}
+{% endcomment %}
+<div class="yt-embed">
+  <button type="button" class="yt-facade" data-yt-id="{{ include.id }}" aria-label="Play video: {{ include.title | default: 'video' }}">
+    <img class="yt-thumb" loading="lazy" alt=""
+         src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg"
+         onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg';">
+    <span class="yt-play" aria-hidden="true"></span>
+  </button>
+</div>

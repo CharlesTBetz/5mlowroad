@@ -46,9 +46,9 @@ the site. Web-optimized derivatives live in `assets/images/` (+ `gallery/`).
    (`subscribe.md` primary + `_includes/footer.html` compact) and delete the
    `.signup-fallback` block in subscribe.md. Free up to ~10k subscribers.
 2. **Formspree ID** — replace `FORMSPREE_ID` in `contact.md`.
-3. **Audio** — MP3s into `assets/audio/` (song-card `src` paths in `listen.md`:
-   leaderboard / this-was-you / earth-was-the-dream / this-side-of-tomorrow) +
-   podcast iframe at `<!-- PODCAST_PLAYER_EMBED_HERE -->` in `listen.md`.
+3. **Music/video** — 100% YouTube (no self-hosted audio). Add `youtube="ID"` to
+   the song cards in `listen.md` (+ the featured card in `index.md`) as videos are
+   produced; EWTD is live. Concept-recording video TBD.
 4. **Team** — headshots + edit the two DRAFT bios in `team.md`.
 5. **Gallery** — snowflake caption (`<!-- TODO: caption -->` in `gallery.md`).
 
