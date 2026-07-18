@@ -42,6 +42,7 @@ Charles T. Betz has attended IANDS conferences and engaged directly with researc
 
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/listen/' | relative_url }}">Hear the Concept Recordings</a>
+  <a class="btn btn-secondary" href="https://onthelowroad.substack.com/" target="_blank" rel="noopener">Read the Substack</a>
 </div>
 
 <p class="form-promise">To hear where the research meets the music, start with our concept recordings.</p>

@@ -5,7 +5,7 @@ description: Join the email list for development updates, new song releases, and
 permalink: /subscribe/
 ---
 
-<p class="lead">Emails will be occasional and will include Charles' Substack posts and composing activities, as well as specific updates on Five Minutes: ongoing updates about readings, competition submissions, new song releases, and the show's further development, possibly including Kickstarter or similar campaigns. No emails will be shared. </p>
+<p class="lead">Emails will be occasional and will include Charles' Substack posts (where he will discuss the Five Minutes creative process), as well as specific updates on Five Minutes: ongoing updates about readings, competition submissions, new song releases, and the show's further development, possibly including Kickstarter or similar campaigns. No emails will be shared. </p>
 
 <!-- Kit (ConvertKit) signup form -->
 <div class="kit-form">
@@ -17,6 +17,14 @@ permalink: /subscribe/
 </div>
 
 <p class="form-promise">Occasional emails. No spam. No shared contacts.</p>
+
+{% include divider.html %}
+
+## The Substack
+
+*On the Low Road* is an ongoing conversation about near-death experience, its wider themes, and the creative process behind the show.
+
+<p><a class="btn btn-secondary" href="https://onthelowroad.substack.com/" target="_blank" rel="noopener">Read on Substack &rarr;</a></p>
 
 {% include divider.html %}
 
