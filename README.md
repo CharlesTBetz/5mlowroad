@@ -4,15 +4,15 @@ Promotional website for **Five Minutes on the Low Road**, an original musical in
 development by Charles T. Betz and Josiah Thomas Turner. Built with Jekyll and
 deployed to GitHub Pages via GitHub Actions.
 
-Live domain: **[5mlowroad.com](https://5mlowroad.com)**
+Live domain: **[5minlowroad.com](https://5minlowroad.com)**
 
 The site's primary goal is email-list signup (ahead of a Kickstarter planned for
 mid-to-late 2027); the secondary goal is letting people listen to the music. It
 is the destination for two QR codes in a printed brochure distributed at the
 IANDS conference (late August 2026):
 
-- **Front door** QR → `5mlowroad.com/go/listen` → redirects to `/listen`
-- **Back door** QR → `5mlowroad.com/go/subscribe` → redirects to `/subscribe`
+- **Front door** QR → `5minlowroad.com/go/listen` → redirects to `/listen`
+- **Back door** QR → `5minlowroad.com/go/subscribe` → redirects to `/subscribe`
 
 The `/go/` pages are redirect stubs only. Their purpose is to let the QR
 destination change later **without reprinting the brochure** — so edit the
@@ -94,8 +94,8 @@ One-time repo settings on GitHub: **Settings → Pages → Build and deployment 
 Source: GitHub Actions.**
 
 ### DNS setup (Cloudflare)
-The domain `5mlowroad.com` is registered at Cloudflare. The repo contains a
-`CNAME` file with `5mlowroad.com` so GitHub Pages serves the custom domain.
+The domain `5minlowroad.com` is registered at Cloudflare. The repo contains a
+`CNAME` file with `5minlowroad.com` so GitHub Pages serves the custom domain.
 
 In Cloudflare DNS, point the domain at GitHub Pages. The simplest approach:
 
@@ -127,7 +127,7 @@ about.md               About the show and Charles
 contact.md             Formspree contact form
 go/listen.md           Redirect stub -> /listen
 go/subscribe.md        Redirect stub -> /subscribe
-CNAME                  5mlowroad.com
+CNAME                  5minlowroad.com
 ```
 
 ## What this site deliberately does not have

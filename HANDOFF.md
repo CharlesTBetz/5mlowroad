@@ -1,4 +1,4 @@
-# Handoff — 5mlowroad.com (Jekyll site for *Five Minutes on the Low Road*)
+# Handoff — 5minlowroad.com (Jekyll site for *Five Minutes on the Low Road*)
 
 Working dir: `/Users/char/code/5min`. This file is git-ignored from the *build*
 but committed to the repo. Read `source/design-guide.md` and
@@ -7,7 +7,7 @@ but committed to the repo. Read `source/design-guide.md` and
 
 ## Current state (2026-07-17): LIVE and redesigned
 
-The site is deployed and verified at **https://5mlowroad.com**. Fully redesigned
+The site is deployed and verified at **https://5minlowroad.com**. Fully redesigned
 to match the brochure + Luke O'Leary's illustrations. Last commit on `main`:
 "Redesign to match brochure + Luke O'Leary illustrations" — pushed, Actions
 deploy succeeded, live pages confirmed 200.
