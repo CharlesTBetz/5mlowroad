@@ -1,60 +1,40 @@
 ---
 layout: page
 title: Why Now
-description: "DRAFT — replace before publishing. A culture is arguing that empathy is a weakness. This is a show about a woman who felt her life from the other side."
+description: We are being told that empathy is a weakness. Near-death experiencers come back transformed — and many of them suffer for it. This is why Five Minutes on the Low Road is a musical.
 permalink: /why-now/
 published: false
 ---
 
 <!--
-  DRAFT — not built. `published: false` keeps this off the live site.
+  DRAFT — copy is final (Charlie, 2026-08-06) but `published: false` keeps this off the
+  live site until the nav goes in.
 
-  To ship: delete the `published: false` line above, then add Why Now to the two
-  navs (_includes/header.html and _includes/footer.html) in the same commit, so
-  the nav link never points at an unwritten page.
-
-  Structure below follows the 8/6 decision (see plan.md, Web presence):
-    - The argument lives here. The EVIDENCE stays on /research/ — different jobs.
-    - State the cultural condition WITHOUT naming anyone. Unattributed is
-      undateable and unimpeachable, and each reader supplies their own example.
-    - The show's answer is an experience, not an argument.
+  To ship: delete the `published: false` line above, then add Why Now to BOTH navs
+  (_includes/header.html and _includes/footer.html) in the same commit, and move Gallery
+  out of the header nav per the Option B decision. One commit, so the nav link never
+  points at a page that isn't there.
 -->
 
-<p class="lead">
-  <!-- TODO (Charlie): the hook. One or two sentences, ideally posed as a question —
-       36Q's is "Can real love survive a digital world?" Yours is stronger and it is
-       about empathy. This is the line that converts "interesting" into "this matters." -->
-</p>
+<p class="lead">We are being told by powerful voices that empathy is a weakness, that somehow deeply connecting and seeing the world through the eyes of another is something to be avoided. That the fate of civilization and our spiritual well-being hinges upon curbing our capacity for empathy.</p>
+
+I disagree.
+
+The only way we will get through our uncertain future is by connecting with and caring for each other.
 
 {% include divider.html %}
 
-## What we are being told
+Awareness of near-death experiences is expanding, and across many thousands of documented accounts, one feature recurs: the life review. It is a moment of required empathy &mdash; the experiencer sees and feels the impact of all their actions on the lives and realities of others.
 
-<!-- TODO (Charlie): the cultural condition. That empathy is now argued, out loud and
-     at volume, to be a weakness rather than a virtue — a bug to be patched.
-     Do NOT name a figure or quote one here. If a citation is wanted at all, it belongs
-     lower on the page as dated evidence, never as the hook. -->
-
-## What a life review actually is
-
-<!-- TODO (Charlie): the turn, and the strongest card in the deck. The show's central
-     device IS an empathy machine — Tanya experiences her own life from the other side
-     and feels what she did to others. A culture calling empathy a weakness, answered by
-     a story whose climax is a woman required to feel. Connect to the clinical record:
-     the empathic replay of harm caused is documented phenomenology, not invention
-     (see /research/). -->
-
-## Why a musical
-
-<!-- TODO (Charlie): why this argument needs to be *experienced* rather than made.
-     An audience does not get talked out of a position; it gets moved out of one.
-     Music does what an op-ed cannot. -->
+Experiencers come back transformed. They come back more empathetic. And many of them suffer for it.
 
 {% include divider.html %}
+
+These themes are deep, operatic even. There is no end to the noise and chatter about them. Arguments and evidence only go so far. The experience must be felt.
+
+Which is why *Five Minutes on the Low Road* is a musical.
 
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/listen/' | relative_url }}">Hear the Concept Recordings</a>
   <a class="btn btn-secondary" href="{{ '/research/' | relative_url }}">See the Research</a>
 </div>
-
-<p class="form-promise">The research is the evidence. The music is the argument.</p>
