@@ -7,9 +7,12 @@ permalink: /contact/
 
 For industry inquiries, press, and collaboration.
 
-Direct email: [char@charlestbetz.com](mailto:char@charlestbetz.com)
+Direct email: [hello@5minlowroad.com](mailto:hello@5minlowroad.com)
 
-<!-- Formspree contact form -> char@charlestbetz.com -->
+<!-- Formspree contact form. Submissions are delivered to the address configured in
+     Formspree (currently char@charlestbetz.com) — changing the mailto above does not
+     reroute the form. Update the destination in the Formspree dashboard if wanted. -->
+
 <form class="contact-form" action="https://formspree.io/f/mbdnoall" method="POST">
   <div class="form-field">
     <label for="name">Name</label>
