@@ -16,7 +16,7 @@ published: false
   points at a page that isn't there.
 -->
 
-<p class="lead">We are being told by powerful voices that empathy is a weakness, that somehow deeply connecting and seeing the world through the eyes of another is something to be avoided. That the fate of civilization and our spiritual well-being hinges upon curbing our capacity for empathy.</p>
+<p class="lead">We are being told by powerful voices that empathy is a weakness, that seeing the world through the eyes of another is something to be avoided. That the fate of civilization and our spiritual well-being hinges upon curbing our capacity for empathy.</p>
 
 I disagree.
 
