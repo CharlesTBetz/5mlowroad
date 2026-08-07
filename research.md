@@ -34,7 +34,7 @@ Most fictional portrayals of NDEs — in film, television, and theater — get t
 
 ## The author's engagement with the field
 
-Charles T. Betz read *Life After Life* when he was 16 and has been a spiritual seeker ever since. He has attended IANDS conferences and engaged directly with researchers and experiencers in developing the show's dramatic and musical framework.
+Charles T. Betz read *Life After Life* when it first came out and has been a spiritual seeker ever since. He has attended IANDS conferences and engaged directly with researchers and experiencers in developing the show's dramatic and musical framework.
 
 {% include divider.html %}
 
