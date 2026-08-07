@@ -1,13 +1,37 @@
 ---
 layout: page
 title: About the Show
-description: Five Minutes on the Low Road — a new musical about near-death experience, empathy, and transformation.
+description: We are being told that empathy is a weakness. Near-death experiencers come back transformed — and many of them suffer for it. This is why Five Minutes on the Low Road is a musical.
 permalink: /about/
 ---
 
-## What it is
+## Why Now
 
-Most of us have heard of near-death experiences (NDEs). A person flatlines on the operating table — and comes back with a story. Tunnel of light, bliss, life review, and they either decide to return, or they are simply sent back.
+<p class="lead">We are being told by powerful voices that empathy is a weakness, that seeing the world through the eyes of another is something to be avoided. That the fate of civilization and our spiritual well-being hinges upon curbing our capacity for empathy.</p>
+
+I disagree.
+
+The only way we will get through our uncertain future is by connecting with and caring for each other.
+
+{% include divider.html %}
+
+Death in some cases is not permanent. Person flatlines on the operating table, people think they're dead &mdash; and they come back, with a story. Tunnel of light, bliss, a moment of required empathy called the "life review," and they either decide to come back, or they're simply sent back. The "near-death experience," or NDE.
+
+You can be skeptical about what's on the other side. What you cannot reasonably be skeptical about is the existence of these cases.
+
+Awareness of near-death experiences is expanding, and across many thousands of documented accounts, one feature recurs: the life review &mdash; the experiencer sees and feels the impact of all their actions on the lives and realities of others.
+
+Experiencers come back transformed. They come back more empathetic. And many of them suffer for it.
+
+{% include divider.html %}
+
+These themes are deep, operatic even. There is no end to the noise and chatter about them. Arguments and evidence only go so far. The experience must be felt.
+
+Which is why *Five Minutes on the Low Road* is a musical.
+
+{% include divider.html %}
+
+## What it is
 
 *Five Minutes on the Low Road* follows **Tanya McDermott**, a driven pharmaceutical executive who crashes her car and has a textbook near-death experience — complete with life review, an encounter with a guide, and a choice. She returns transformed. The people around her are not prepared for who she becomes.
 
