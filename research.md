@@ -15,15 +15,13 @@ The International Association for Near-Death Studies (IANDS), founded in 1981, i
 
 ## The aftereffects
 
-The aftereffects of an NDE are where the drama lives:
-
 <ul class="stat-list">
-  <li><strong>75&ndash;78%</strong> of adult experiencers divorce</li>
-  <li><strong>Nearly all</strong> change careers</li>
   <li>Marked decrease in fear of death, materialism, and status-seeking</li>
   <li>Marked increase in compassion, altruism, and spiritual openness</li>
   <li>Frequent conflict with family, workplace, and religious community</li>
   <li>Occasional conflict with the medical establishment</li>
+  <li><strong>75&ndash;78%</strong> of adult experiencers divorce</li>
+  <li><strong>Nearly all</strong> change careers</li>
 </ul>
 
 *Five Minutes on the Low Road* dramatizes these aftereffects, not just the experience itself.
