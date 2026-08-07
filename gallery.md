@@ -35,3 +35,14 @@ permalink: /gallery/
 </div>
 
 <p class="gallery-attribution">All illustrations &copy; Luke O'Leary. Used with permission.</p>
+
+<section class="section">
+  <h2 class="section-heading">Rough Cuts at Nautilus Music-Theater — March 2026</h2>
+
+  <div class="gallery-grid">
+    <figure class="gallery-item">
+      <img src="{{ '/assets/images/gallery/rough-cuts-2026-03.jpg' | relative_url }}" alt="Charlie Betz (composer), Josiah Thomas Turner (librettist), Josh Row (tenor), Jake Endres (baritone), Norah Long (soprano)" loading="lazy" width="1600" height="1200">
+      <figcaption class="gallery-caption">Charlie Betz (composer), Josiah Thomas Turner (librettist), Josh Row (tenor), Jake Endres (baritone), Norah Long (soprano). Norah performed &ldquo;Best for Her&rdquo; and &ldquo;This Side of Tomorrow&rdquo; from Five Minutes On The Low Road. Nearly 50 people showed up despite a March blizzard.</figcaption>
+    </figure>
+  </div>
+</section>
