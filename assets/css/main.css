@@ -612,13 +612,18 @@ hr, .divider {
 
   /* Nav becomes a horizontal bar; hide the toggle */
   .nav-toggle { display: none; }
+  /* Sit the wordmark and the menu on a shared text baseline. `center` boxes
+     them by height, which cannot align them because the title (0.98rem/1.3)
+     and the links (0.85rem/inherited) have different font metrics. */
+  .site-nav { align-items: baseline; }
   .site-nav-menu {
     display: flex;
     width: auto;
     gap: 1.6rem;
+    align-items: baseline;
   }
   .site-nav-menu li { border-top: 0; }
-  .site-nav-menu a { padding: 0.25rem 0; }
+  .site-nav-menu a { padding: 0; }
 
   .cta-row { flex-direction: row; justify-content: center; flex-wrap: wrap; }
   .hero .cta-row { justify-content: flex-end; }
