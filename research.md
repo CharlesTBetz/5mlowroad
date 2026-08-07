@@ -28,7 +28,7 @@ The International Association for Near-Death Studies (IANDS), founded in 1981, i
 
 {% include divider.html %}
 
-## What the show gets right
+## Getting the NDE right
 
 Most fictional portrayals of NDEs — in film, television, and theater — get the phenomenology wrong, or use the experience as a convenient plot device without engaging the research. This show is built differently. The NDE in the story follows the clinical literature: a structured life review, an encounter with a guide, an empathic replay of harm caused to others, and a genuine choice to return. The aftermath follows the longitudinal research on aftereffects.
 
