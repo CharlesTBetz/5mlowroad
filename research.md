@@ -18,8 +18,8 @@ The International Association for Near-Death Studies (IANDS), founded in 1981, i
 The aftereffects of an NDE are where the drama lives:
 
 <ul class="stat-list">
-  <li>Divorce rate among experiencers: <strong>~65%</strong> (vs. ~35% in the general population)</li>
-  <li>Job change within five years: <strong>~75%</strong></li>
+  <li><strong>75&ndash;78%</strong> of adult experiencers divorce</li>
+  <li><strong>Nearly all</strong> change careers</li>
   <li>Marked decrease in fear of death, materialism, and status-seeking</li>
   <li>Marked increase in compassion, altruism, and spiritual openness</li>
   <li>Frequent conflict with family, workplace, and religious community</li>
@@ -38,7 +38,17 @@ Most fictional portrayals of NDEs — in film, television, and theater — get t
 
 Charles T. Betz has attended IANDS conferences and engaged directly with researchers and experiencers in developing the show's dramatic and musical framework.
 
-<!-- TODO: add bibliography or recommended reading list -->
+{% include divider.html %}
+
+## Sources
+
+Sources studied include:
+
+<ul>
+  <li><em>The Big Book of Near-Death Experiences</em> by P.M.H. Atwater (Hampton Roads Publishing, 2007)</li>
+  <li><em>IANDS Journal</em>, various issues</li>
+  <li>The online database of the Near Death Experience Research Foundation (<a href="https://www.nderf.org" target="_blank" rel="noopener">www.nderf.org</a>)</li>
+</ul>
 
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/listen/' | relative_url }}">Hear the Concept Recordings</a>
