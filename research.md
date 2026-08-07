@@ -20,8 +20,8 @@ The International Association for Near-Death Studies (IANDS), founded in 1981, i
   <li>Marked increase in compassion, altruism, and spiritual openness</li>
   <li>Frequent conflict with family, workplace, and religious community</li>
   <li>Occasional conflict with the medical establishment</li>
-  <li><strong>75&ndash;78%</strong> of adult experiencers divorce</li>
-  <li><strong>Nearly all</strong> change careers</li>
+  <li>75&ndash;78% of adult experiencers divorce</li>
+  <li>Nearly all change careers</li>
 </ul>
 
 *Five Minutes on the Low Road* dramatizes these aftereffects, not just the experience itself.
