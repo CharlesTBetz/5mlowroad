@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About the Show
+title: Why Now
 description: We are being told that empathy is a weakness. Near-death experiencers come back transformed — and many of them suffer for it. This is why Five Minutes on the Low Road is a musical.
 permalink: /about/
 ---
-
-## Why Now
 
 <p class="lead">We are being told by powerful voices that empathy is a weakness, that seeing the world through the eyes of another is something to be avoided. That the fate of civilization and our spiritual well-being hinges upon curbing our capacity for empathy.</p>
 
@@ -31,7 +29,7 @@ Which is why *Five Minutes on the Low Road* is a musical.
 
 {% include divider.html %}
 
-## What it is
+## About the Show
 
 *Five Minutes on the Low Road* follows **Tanya McDermott**, a driven pharmaceutical executive who crashes her car and has a textbook near-death experience — complete with life review, an encounter with a guide, and a choice. She returns transformed. The people around her are not prepared for who she becomes.
 
