@@ -11,7 +11,7 @@ description: A new musical about near-death experience, empathy, and transformat
     <p class="hero-subtitle">A near-death musical</p>
   </div>
   <div class="hero-bottom">
-    <p class="hero-credit">Book, music, lyrics, and original concept by Charles T. Betz.<br>Additional book, lyrics, and music by Josiah Thomas Turner.<br>Dramaturgy by Josiah Thomas Turner.</p>
+    <p class="hero-credit">Book, music, lyrics, and original concept by Charles T. Betz.<br>Additional book, lyrics, and music by Josiah Thomas Turner.<br>Dramaturgy by Josiah Thomas Turner. Orchestrations by Ben Jossi.</p>
     <div class="cta-row">
       <a class="btn btn-secondary" href="{{ '/research/' | relative_url }}">The Research</a>
       <a class="btn btn-secondary" href="{{ '/subscribe/' | relative_url }}">Stay in Touch</a>

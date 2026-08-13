@@ -43,6 +43,12 @@ There are not many plays, TV shows, or movies that treat the NDE accurately. Per
 
 {% include divider.html %}
 
+## About the title
+
+*Five Minutes on the Low Road* takes its name from the traditional Scottish folk song "Loch Lomond." In the well-known chorus — "You take the high road, and I'll take the low road" — the "low road" is the road of the spirit home.
+
+{% include divider.html %}
+
 ## Development status
 
 The show is currently in development under the auspices of the New Musical Theater Exchange (nmte.org) in Minneapolis.  Concept recordings are in progress. The show has been presented at readings at both NMTE workshops and Nautilus Music Theater's "Rough Cuts" series.

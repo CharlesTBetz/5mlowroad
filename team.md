@@ -33,12 +33,19 @@ Josiah Thomas Turner is a writer, musician, and theater-maker. He holds an MFA i
 
 {% include divider.html %}
 
-## Luke O'Leary
-<p class="label">Illustration</p>
+## Ben Jossi
+<p class="label">Orchestrations</p>
 
-<!-- TODO: headshot + bio for Luke O'Leary -->
-Luke O'Leary created the illustrations for *Five Minutes on the Low Road* — the tunnel-of-light hero art and the gallery pieces. Full bio coming soon.
+Ben Jossi orchestrates *Five Minutes on the Low Road*. He is a winner of the Louis Armstrong Award, the Woody Herman Award, and the Founders Award.
 
 {% include divider.html %}
 
-<p class="label">Book, lyrics, and music by Charles T. Betz. Additional book, lyrics, and music by Josiah Thomas Turner. Dramaturgy by Josiah Thomas Turner. Illustrations by Luke O'Leary.</p>
+## Luke O'Leary
+<p class="label">Illustration</p>
+
+<!-- TODO: headshot for Luke O'Leary -->
+Luke O'Leary created the illustrations for *Five Minutes on the Low Road* — the tunnel-of-light hero art and the gallery pieces. See more of his work at [lukeoart.carrd.co](https://lukeoart.carrd.co).
+
+{% include divider.html %}
+
+<p class="label">Book, music, lyrics, and original concept by Charles T. Betz. Additional book, lyrics, and music by Josiah Thomas Turner, Kennedy Center Emerging Playwright. Dramaturgy by Josiah Thomas Turner. Orchestrations by Ben Jossi. Illustrations by Luke O'Leary.</p>
