@@ -49,13 +49,9 @@ There are not many plays, TV shows, or movies that treat the NDE accurately. Per
 
 {% include divider.html %}
 
-## Development status
+## Development
 
-The show is currently in development under the auspices of the New Musical Theater Exchange (nmte.org) in Minneapolis.  Concept recordings are in progress. The show has been presented at readings at both NMTE workshops and Nautilus Music Theater's "Rough Cuts" series.
-
-Multiple drafts of the script have been reviewed by musical theater professionals, including those at New Musicals, Incorporated (www.nmi.org) and Nautilus Music-Theater in St. Paul, Minnesota.
-
-Meet the [creative team]({{ '/team/' | relative_url }}) &rarr;
+The show is in active development in Minneapolis. Read about the workshops, the collaborators, and where it stands on the [Development & Team]({{ '/team/' | relative_url }}) page.
 
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">The NDE Research</a>

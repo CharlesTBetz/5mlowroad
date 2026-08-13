@@ -1,12 +1,22 @@
 ---
 layout: page
-title: Creative Team
-description: The creative team behind Five Minutes on the Low Road.
+title: Development & Team
+description: The development history, creative team, and acknowledgements for Five Minutes on the Low Road.
 permalink: /team/
 ---
 
+## Development
+
+*Five Minutes on the Low Road* is an original, research-based work of musical theater. The script was first drafted in the writers' workshop at [New Musicals, Incorporated](https://www.nmi.org). Excerpts have since been presented at the Twin Cities Nautilus Rough Cuts showcase, and the show is currently in development under the auspices of the [New Musical Theater Exchange](https://www.nmte.org) in Minneapolis. Concept recordings are in progress.
+
+Multiple drafts of the script have been reviewed by musical theater professionals, including those at New Musicals, Incorporated and Nautilus Music-Theater in St. Paul. Photos from the March 2026 Rough Cuts reading are in the [gallery]({{ '/gallery/' | relative_url }}).
+
+The stage is the primary form, but the concept reaches beyond any single medium. The [illustrations]({{ '/gallery/' | relative_url }}) open naturally toward a graphic novel, and a [novella]({{ '/assets/downloads/5min-brochure-2608.pdf' | relative_url }}) is already in progress. Related works, one world.
+
+{% include divider.html %}
+
 <!-- ============================================================
-     DRAFT BIOS — drawn from Charles's Playwrights' Center profile
+     DRAFT BIOS: drawn from Charles's Playwrights' Center profile
      and Josiah's resume. Charles: please review and adjust before
      these are considered final. Remove this comment when finalized.
      ============================================================ -->
@@ -16,7 +26,7 @@ permalink: /team/
 
 <img class="team-photo" src="{{ '/assets/images/team/charles-betz.jpg' | relative_url }}" alt="Charles T. Betz" width="160" height="160" loading="lazy">
 
-Charles T. Betz is a Minneapolis-based composer and lyricist, and the creator of *Five Minutes on the Low Road*, for which he wrote the book, music, and lyrics. He trained in classical and jazz guitar, brass, music theory, and jazz arranging at the University of Minnesota and the University of North Texas, and has performed across classical, jazz, rock, choral, and worship music. He completed the year-long Core program at New Musicals, Incorporated (2022–2023) and returned as a guest composer the following season, and in 2024 was selected for Nautilus Music-Theater's Composer-Librettist Studio. Recent works include *IQ: The Musical* (Los Angeles, 2023), the commissioned choral-orchestral *Wild and Precious* (2024), and *River Song* (2025). He is a member of the New Musical Theater Exchange, the Minnesota Association of Songwriters, and the Playwrights' Center. His work on *Five Minutes* grows out of direct engagement with near-death-experience research and the IANDS community, keeping the show grounded in the clinical literature rather than in spectacle.
+Charles T. Betz is a Minneapolis-based composer and lyricist, and the creator of *Five Minutes on the Low Road*, for which he wrote the book, music, and lyrics. He trained in classical and jazz guitar, brass, music theory, and jazz arranging at the University of Minnesota and the University of North Texas, and has performed across classical, jazz, rock, choral, and worship music. He completed the year-long Core program at New Musicals, Incorporated (2022–2023) and was invited to return as guest composer the following season, and in 2024 was selected for Nautilus Music-Theater's Composer-Librettist Studio. Recent works include *IQ: The Musical* (Los Angeles, 2023), the commissioned choral-orchestral *Wild and Precious* (2024), and *River Song* (2025). He is a member of the New Musical Theater Exchange, the Minnesota Association of Songwriters, and the Playwrights' Center. His work on *Five Minutes* grows out of direct engagement with near-death-experience research and the IANDS community, keeping the show grounded in the clinical literature rather than in spectacle.
 
 [char@charlestbetz.com](mailto:char@charlestbetz.com)
 
@@ -48,4 +58,22 @@ Luke O'Leary created the illustrations for *Five Minutes on the Low Road*: the t
 
 {% include divider.html %}
 
+## Acknowledgements
+
+<p class="label">Dramaturgical</p>
+
+Elise Dewsberry and John Sparks of New Musicals, Incorporated; Ben Krywosz of Nautilus Music-Theater; Josiah Thomas Turner; and the members of the New Musical Theater Exchange.
+
+<p class="label">Musical</p>
+
+Josiah Thomas Turner; Lia Peros; Eulis Kay; Joshua Row; Xan Mattek; Luke O'Leary; Ben Jossi; and, again, the New Musical Theater Exchange.
+
+<p class="label">Inspirational</p>
+
+The [International Association for Near-Death Studies](https://iands.org) for its ongoing research and conferences, and the local Twin Cities NDE meetups.
+
+{% include divider.html %}
+
 <p class="label">Book, music, lyrics, and original concept by Charles T. Betz. Additional book, lyrics, and music by Josiah Thomas Turner, Kennedy Center Emerging Playwright. Dramaturgy by Josiah Thomas Turner. Orchestrations by Ben Jossi. Illustrations by Luke O'Leary.</p>
+
+<p class="label"><em>The story presented in Five Minutes on the Low Road is an amalgam. All story points are based on multiple accounts, or created purely as imaginary-yet-plausible within the known literature and associated cosmology. Any resemblance to any individual, living or dead, is coincidental.</em></p>

@@ -21,6 +21,17 @@ This file is for maintainers and is excluded from the published build.
 - Added a **concept-brochure PDF download** on the home page; tightened the logline.
 - Reconciled the site against brochure v1 (2026.08.11).
 
+**Information architecture**
+
+- Added a **Development & Team** page: the show's workshop and collaborator
+  history (moved out of Why Now, which now links to it), the four bios, an
+  Acknowledgements credits block, and the amalgam/disclaimer note. Development
+  leads, bios follow. Closes with a line on the concept's other forms, linking
+  the illustrations to the gallery and the in-progress novella to the brochure.
+- Trimmed the top nav to five items with Gallery last
+  (`Listen · Why Now · The Research · Development & Team · Gallery`); moved
+  Contact and Stay in Touch to the footer and hero.
+
 **House style (typography): decisions worth keeping**
 
 - **No em dashes in reader-facing copy.** They read as an AI tell. Swept the whole
