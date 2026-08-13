@@ -46,7 +46,7 @@ permalink: /gallery/
 
 <p class="gallery-attribution">All illustrations &copy; <a href="https://lukeoart.carrd.co">Luke O'Leary</a>. Used with permission.</p>
 
-<section class="section">
+<section class="section" id="rough-cuts">
   <h2 class="section-heading">Rough Cuts at Nautilus Music-Theater, March 2026</h2>
 
   <div class="gallery-grid">
