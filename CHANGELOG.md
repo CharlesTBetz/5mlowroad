@@ -1,28 +1,40 @@
 # Changelog
 
-Human-readable summary of the site's major phases of work. Grouped by day —
-each entry is roughly a day's effort, not a per-commit log. Newest first.
+Human-readable summary of the site's major phases of work. Grouped by day, not
+per commit: each entry is roughly a day's effort. Newest first.
 
 This file is for maintainers and is excluded from the published build.
 
 ---
 
-## 2026-08-13 — Illustration finals + show credits
+## 2026-08-13: Illustration finals, show credits, and house style
 
-- Replaced placeholder art with Luke O'Leary's **finished illustrations**:
-  new hero and social-share image, and a rebuilt 7-piece gallery (Tanya the
-  Tiger, In the ICU, the post-NDE character study, plus finals of the
-  tunnel-of-light, garden, choice, and snowflake pieces).
-- Retired the old "Tanya and Steve" sketch; kept the Rough Cuts production photo.
-- Added the **orchestrations credit** (Ben Jossi) to the home hero and team page,
-  Luke O'Leary's portfolio link, and the "Loch Lomond" title etymology on Why Now.
+**Illustrations and credits**
+
+- Replaced placeholder art with Luke O'Leary's **finished illustrations**: new
+  hero and social-share image, and a rebuilt 7-piece gallery (Tanya the Tiger,
+  In the ICU, the post-NDE character study, plus finals of the tunnel-of-light,
+  garden, choice, and snowflake pieces). Retired the old "Tanya and Steve"
+  sketch; kept the Rough Cuts production photo.
+- Added the **orchestrations credit** (Ben Jossi, with website link), Luke
+  O'Leary's portfolio link, and the "Loch Lomond" title etymology on Why Now.
+- Added a **concept-brochure PDF download** on the home page; tightened the logline.
 - Reconciled the site against brochure v1 (2026.08.11).
-- Added a **concept-brochure PDF download** on the home page and tightened the logline.
-- Added Ben Jossi's website link on the team page.
-- **Reduced em dashes site-wide** to zero in reader-facing copy (house style: em
-  dashes read as an AI tell).
 
-## 2026-08-07 — Content overhaul: Why Now, Research, and polish
+**House style (typography): decisions worth keeping**
+
+- **No em dashes in reader-facing copy.** They read as an AI tell. Swept the whole
+  site to zero, using commas, colons, ellipses, or parentheses as context
+  warrants; the standing rule is no more than two site-wide. Rationale and rule
+  recorded in `CLAUDE.md`. (This may relax over time.)
+- **Ellipsis convention.** The website uses the single Unicode character `…`
+  (U+2026), chosen for accessibility (screen readers announce it correctly) and
+  because one glyph never breaks across a line. The print brochure instead uses
+  narrow no-break spaced periods, which suit its Garamond setting. Brochure and
+  site are maintained from **separate copy** and intentionally differ here; they
+  are not reconciled.
+
+## 2026-08-07: Content overhaul (Why Now, Research, polish)
 
 - Merged the draft **"Why Now"** essay into the About page and renamed the page
   (and nav) from "About" to "Why Now."
@@ -33,25 +45,25 @@ This file is for maintainers and is excluded from the published build.
 - Added the **Rough Cuts at Nautilus Music-Theater** (March 2026) photo to the gallery.
 - Redeployed after a GitHub Actions/Pages outage.
 
-## 2026-08-06 — "Why Now" draft + contact change
+## 2026-08-06: "Why Now" draft and contact change
 
 - Drafted the **Why Now** page (staged, initially unpublished) and iterated on its copy.
 - Changed the contact address to hello@5minlowroad.com.
 
-## 2026-08-04 — Domain move
+## 2026-08-04: Domain move
 
 - Moved the site to its production domain, **5minlowroad.com**.
 
-## 2026-08-01 — Print/web bridge
+## 2026-08-01: Print/web bridge
 
 - Added **QR codes** (via segno) for `/go/listen` and `/go/subscribe`, linking the
   printed brochure to the site.
 
-## 2026-07-18 — Content, integrations, and email capture
+## 2026-07-18: Content, integrations, and email capture
 
 - Rewrote **About** (car-crash setup, NDE prose, NMTE/Nautilus development status)
   and synced the homepage copy and logline to match.
-- Added the **team** page (bios + headshots) with a Luke O'Leary placeholder, and
+- Added the **team** page (bios and headshots) with a Luke O'Leary placeholder, and
   linked "creative team" from About.
 - Wired up email/contact plumbing: **Kit (ConvertKit)** signup form and a
   **Formspree** contact form.
@@ -60,11 +72,11 @@ This file is for maintainers and is excluded from the published build.
   fixed the Listen song order to match the show.
 - Replaced the favicon with a purpose-built high-contrast spiral.
 
-## 2026-07-17 — Brochure-aligned redesign
+## 2026-07-17: Brochure-aligned redesign
 
 - Redesigned the site to match the **brochure and Luke O'Leary's illustrations**
   (color system, typography, hero treatment) and refined the hero composition and copy.
 
-## 2026-07-16 — Initial build
+## 2026-07-16: Initial build
 
 - Created the initial **5mlowroad.com Jekyll site** and session handoff doc.
