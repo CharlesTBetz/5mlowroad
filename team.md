@@ -27,7 +27,7 @@ Charles T. Betz is a Minneapolis-based composer and lyricist, and the creator of
 
 <img class="team-photo" src="{{ '/assets/images/team/josiah-turner.jpg' | relative_url }}" alt="Josiah Thomas Turner" width="160" height="160" loading="lazy">
 
-Josiah Thomas Turner is a writer, musician, and theater-maker. He holds an MFA in Playwriting from the University of Texas at Austin, where he studied with Annie Baker, Branden Jacobs-Jenkins, and Kirk Lynn, and he was a Many Voices Fellow at the Playwrights' Center (2023–2025). His honors include the Kennedy Center's National Undergraduate Playwriting Award, the Ken Ludwig Playwriting Scholarship, and the Planet Earth Prize, and he is a 2026 Creative Capital grantee for *The Adventures of Huckleberry Jim*. He currently serves as an Artistic Department Assistant at the Guthrie Theater. A multi-instrumentalist and freelance dramaturg, he contributes additional book, lyrics, and music to *Five Minutes on the Low Road* and provides the dramaturgical guidance that shapes its structure and stakes — work that continued through the show's Nautilus Music-Theater workshop.
+Josiah Thomas Turner is a writer, musician, and theater-maker. He holds an MFA in Playwriting from the University of Texas at Austin, where he studied with Annie Baker, Branden Jacobs-Jenkins, and Kirk Lynn, and he was a Many Voices Fellow at the Playwrights' Center (2023–2025). His honors include the Kennedy Center's National Undergraduate Playwriting Award, the Ken Ludwig Playwriting Scholarship, and the Planet Earth Prize, and he is a 2026 Creative Capital grantee for *The Adventures of Huckleberry Jim*. He currently serves as an Artistic Department Assistant at the Guthrie Theater. A multi-instrumentalist and freelance dramaturg, he contributes additional book, lyrics, and music to *Five Minutes on the Low Road* and provides the dramaturgical guidance that shapes its structure and stakes, work that continued through the show's Nautilus Music-Theater workshop.
 
 <p><a href="https://josiahthomasturner.com">josiahthomasturner.com</a></p>
 
@@ -44,7 +44,7 @@ Ben Jossi orchestrates *Five Minutes on the Low Road*. He is a winner of the Lou
 <p class="label">Illustration</p>
 
 <!-- TODO: headshot for Luke O'Leary -->
-Luke O'Leary created the illustrations for *Five Minutes on the Low Road* — the tunnel-of-light hero art and the gallery pieces. See more of his work at [lukeoart.carrd.co](https://lukeoart.carrd.co).
+Luke O'Leary created the illustrations for *Five Minutes on the Low Road*: the tunnel-of-light hero art and the gallery pieces. See more of his work at [lukeoart.carrd.co](https://lukeoart.carrd.co).
 
 {% include divider.html %}
 

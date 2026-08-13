@@ -5,13 +5,13 @@ description: Five Minutes on the Low Road is grounded in decades of clinical NDE
 permalink: /research/
 ---
 
-<p class="lead">Near-death experiences have been documented since antiquity — Plato describes one in the <em>Republic</em>. The modern clinical literature begins with Raymond Moody's <em>Life After Life</em> (1975). Since then, tens of thousands of cases have been documented, with remarkable cross-cultural consistency in the core phenomenology: the tunnel, the light, the life review, the encounter with presences, and the choice or compulsion to return.</p>
+<p class="lead">Near-death experiences have been documented since antiquity; Plato describes one in the <em>Republic</em>. The modern clinical literature begins with Raymond Moody's <em>Life After Life</em> (1975). Since then, tens of thousands of cases have been documented, with remarkable cross-cultural consistency in the core phenomenology: the tunnel, the light, the life review, the encounter with presences, and the choice or compulsion to return.</p>
 
 {% include divider.html %}
 
 ## The research landscape
 
-The International Association for Near-Death Studies (IANDS), founded in 1981, is the primary professional body for NDE research. The Division of Perceptual Studies at the University of Virginia has produced peer-reviewed research on NDEs and related phenomena for decades. Researchers including Pim van Lommel, Bruce Greyson, and Kenneth Ring have published longitudinal studies on aftereffects — the changes that experiencers undergo after returning.
+The International Association for Near-Death Studies (IANDS), founded in 1981, is the primary professional body for NDE research. The Division of Perceptual Studies at the University of Virginia has produced peer-reviewed research on NDEs and related phenomena for decades. Researchers including Pim van Lommel, Bruce Greyson, and Kenneth Ring have published longitudinal studies on aftereffects, the changes that experiencers undergo after returning.
 
 ## The aftereffects
 
@@ -30,7 +30,7 @@ The International Association for Near-Death Studies (IANDS), founded in 1981, i
 
 ## Getting the NDE right
 
-Most fictional portrayals of NDEs — in film, television, and theater — get the phenomenology wrong, or use the experience as a convenient plot device without engaging the research. This show is built differently. The NDE in the story follows the clinical literature: a structured life review, an encounter with a guide, an empathic replay of harm caused to others, and a genuine choice to return. The aftermath follows the longitudinal research on aftereffects.
+Most fictional portrayals of NDEs (in film, television, and theater) get the phenomenology wrong, or use the experience as a convenient plot device without engaging the research. This show is built differently. The NDE in the story follows the clinical literature: a structured life review, an encounter with a guide, an empathic replay of harm caused to others, and a genuine choice to return. The aftermath follows the longitudinal research on aftereffects.
 
 ## The author's engagement with the field
 

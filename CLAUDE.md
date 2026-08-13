@@ -43,6 +43,14 @@ duplicated work and messy divergences).
   gallery pieces ~1600px long edge at q82; hero cropped to 1600×1342.
   Originals are NOT committed (kept in Dropbox / `source/`).
 
+## Writing style
+- **Avoid em dashes** (the `—` character and `&mdash;`) in site copy. They read as an
+  AI tell. Keep no more than two across the whole published site; it currently sits at
+  zero. Use a comma, colon, ellipsis, parentheses, or a period plus "And"/"But" instead.
+- En dashes in numeric ranges (e.g. `2023–2025`) and ordinary hyphens are fine; only
+  em dashes are the concern.
+- This preference may relax over time, per Charles.
+
 ## Housekeeping
 - Keep **CHANGELOG.md** current at day-level granularity (major phases, not per-commit).
 - Excluded from the build: `README.md`, `HANDOFF.md`, `CHANGELOG.md`, `CLAUDE.md`,

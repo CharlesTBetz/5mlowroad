@@ -18,6 +18,9 @@ This file is for maintainers and is excluded from the published build.
   Luke O'Leary's portfolio link, and the "Loch Lomond" title etymology on Why Now.
 - Reconciled the site against brochure v1 (2026.08.11).
 - Added a **concept-brochure PDF download** on the home page and tightened the logline.
+- Added Ben Jossi's website link on the team page.
+- **Reduced em dashes site-wide** to zero in reader-facing copy (house style: em
+  dashes read as an AI tell).
 
 ## 2026-08-07 — Content overhaul: Why Now, Research, and polish
 

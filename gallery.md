@@ -34,12 +34,12 @@ permalink: /gallery/
   </figure>
 
   <figure class="gallery-item">
-    <img src="{{ '/assets/images/gallery/choice.jpg' | relative_url }}" alt="The choice — Tanya between her guide and her grieving daughter, her body in the ICU below" loading="lazy" width="1164" height="1600">
+    <img src="{{ '/assets/images/gallery/choice.jpg' | relative_url }}" alt="The choice: Tanya between her guide and her grieving daughter, her body in the ICU below" loading="lazy" width="1164" height="1600">
     <figcaption class="gallery-caption">The choice</figcaption>
   </figure>
 
   <figure class="gallery-item">
-    <img src="{{ '/assets/images/gallery/character-study.jpg' | relative_url }}" alt="Post-NDE character study of Tanya — three expressions" loading="lazy" width="1600" height="700">
+    <img src="{{ '/assets/images/gallery/character-study.jpg' | relative_url }}" alt="Post-NDE character study of Tanya, three expressions" loading="lazy" width="1600" height="700">
     <figcaption class="gallery-caption">Post-NDE character study</figcaption>
   </figure>
 </div>
@@ -47,7 +47,7 @@ permalink: /gallery/
 <p class="gallery-attribution">All illustrations &copy; <a href="https://lukeoart.carrd.co">Luke O'Leary</a>. Used with permission.</p>
 
 <section class="section">
-  <h2 class="section-heading">Rough Cuts at Nautilus Music-Theater — March 2026</h2>
+  <h2 class="section-heading">Rough Cuts at Nautilus Music-Theater, March 2026</h2>
 
   <div class="gallery-grid">
     <figure class="gallery-item">
