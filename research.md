@@ -5,7 +5,7 @@ description: Five Minutes on the Low Road is grounded in decades of clinical NDE
 permalink: /research/
 ---
 
-<p class="lead">Near-death experiences have been documented since antiquity; Plato describes one in the <em>Republic</em>. The modern clinical literature begins with Raymond Moody's <em>Life After Life</em> (1975). Since then, tens of thousands of cases have been documented, with remarkable cross-cultural consistency in the core phenomenology: the tunnel, the light, the life review, the encounter with presences, and the choice or compulsion to return.</p>
+<p class="lead">Near-death experiences have been documented since antiquity; Plato describes one in the <em>Republic</em>. The modern clinical literature begins with Raymond Moody's <em>Life After Life</em> (1975). Since then, tens of thousands of cases have been documented, with remarkable cross-cultural consistency in the core phenomenology: the tunnel, the light, the life review, the encounter with beings or presences, and the choice or compulsion to return.</p>
 
 {% include divider.html %}
 
