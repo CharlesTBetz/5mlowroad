@@ -22,14 +22,14 @@ description: A new musical about near-death experience, empathy, and transformat
 
 <div class="page">
 
-<!-- Logline — TODO: Charles to refine -->
-<p class="logline">A pharmaceutical executive dies and spends five minutes on the "other side." What she brings back will cost her everything she built &mdash; and return something she forgot she lost.</p>
+<p class="logline">A pharmaceutical executive dies and spends five minutes on the "other side." She returns transformed, but there are costs.</p>
 
 {% include divider.html %}
 
 <!-- Brief show description -->
 <section class="section">
-  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table &mdash; and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya McDermott, a driven pharma executive who crashes her car and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
+  <p class="brochure-link"><a href="{{ '/assets/downloads/5min-brochure-2608.pdf' | relative_url }}" download>Download the concept brochure &darr;</a></p>
+  <p class="lead">Most of us have heard of near-death experiences: a person flatlines on the operating table, and comes back with a story. <em>Five Minutes on the Low Road</em> follows Tanya McDermott, a driven pharma executive who crashes her car and has a textbook near-death experience: the tunnel, the light, a life review, and a choice. She returns transformed. The people around her are not prepared for who she becomes.</p>
 </section>
 
 <!-- Featured song -->
