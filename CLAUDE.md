@@ -50,6 +50,12 @@ duplicated work and messy divergences).
 - En dashes in numeric ranges (e.g. `2023–2025`) and ordinary hyphens are fine; only
   em dashes are the concern.
 - This preference may relax over time, per Charles.
+- **Ellipses on the website: use the single Unicode character `…` (U+2026).** Chosen
+  for accessibility (screen readers announce it correctly) and because one glyph never
+  breaks across a line. The print brochure instead uses narrow no-break spaced periods
+  (a period, U+202F narrow no-break space, repeated), which suits its Garamond
+  typesetting. The brochure and the site are maintained from **separate copy** and
+  intentionally differ here. Do not try to reconcile them.
 
 ## Housekeeping
 - Keep **CHANGELOG.md** current at day-level granularity (major phases, not per-commit).
