@@ -52,6 +52,20 @@
       });
     })();
 
+    // External links open in a new tab. Single source of truth: any http(s)
+    // link whose host differs from this page's is external. Covers Markdown-
+    // and HTML-authored links alike, so authors never hand-tag target/rel.
+    (function () {
+      var links = document.querySelectorAll('a[href]');
+      for (var i = 0; i < links.length; i++) {
+        var a = links[i];
+        if ((a.protocol === 'http:' || a.protocol === 'https:') && a.host !== location.host) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener noreferrer');
+        }
+      }
+    })();
+
     // Click-to-load YouTube facades: inject the iframe only on click
     document.addEventListener('click', function (e) {
       var btn = e.target.closest && e.target.closest('.yt-facade');
