@@ -9,7 +9,7 @@ permalink: /team/
 
 *Five Minutes on the Low Road* is an original, research-based work of musical theater. The script was first drafted in the writers' workshop at [New Musicals, Incorporated](https://www.nmi.org). Excerpts have since been presented at [Nautilus Music-Theater](https://nautilusmusictheater.org/#ABOUT-NAUTILUS)'s Rough Cuts showcase ([pic]({{ '/gallery/' | relative_url }}#rough-cuts)), and the show is currently in development under the auspices of the [New Musical Theater Exchange](https://www.nmte.org) in Minneapolis. Concept recordings are in progress.
 
-The stage is the primary form, but the concept reaches beyond any single medium. The [illustrations]({{ '/gallery/' | relative_url }}) start to suggest a graphic novel, and a [novella]({{ '/assets/downloads/5min-brochure-2608.pdf' | relative_url }}) is already in progress. Related works, one world.
+The stage is the primary form, but the concept reaches beyond any single medium. The [illustrations]({{ '/gallery/' | relative_url }}) start to suggest a graphic novel, and a [novella]({{ '/assets/downloads/5min-brochure-2608.pdf' | relative_url }}) is already in progress.
 
 {% include divider.html %}
 
