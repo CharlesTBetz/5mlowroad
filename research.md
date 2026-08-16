@@ -43,12 +43,13 @@ Charles T. Betz read *Life After Life* when it first came out and has been a spi
 Sources studied include:
 
 <ul>
-  <li><em>Life After Life</em> by Raymond Moody (Mockingbird Books, 1975)</li>
-  <li><em>The Big Book of Near-Death Experiences</em> by P.M.H. Atwater (Hampton Roads Publishing, 2007)</li>
-  <li><em>Proof of Heaven: A Neurosurgeon's Journey into the Afterlife</em> by Eben Alexander (Simon &amp; Schuster, 2012)</li>
-  <li><em>Dying to Be Me: My Journey from Cancer, to Near Death, to True Healing</em> by Anita Moorjani (Hay House, 2012)</li>
+  <li><em><a href="https://www.goodreads.com/book/show/59598.Life_After_Life">Life After Life</a></em> by Raymond Moody (Mockingbird Books, 1975)</li>
+  <li><em><a href="https://www.goodreads.com/book/show/1686581.The_Big_Book_of_Near_Death_Experiences">The Big Book of Near-Death Experiences</a></em> by P.M.H. Atwater (Hampton Roads Publishing, 2007)</li>
+  <li><em><a href="https://www.goodreads.com/book/show/15851746-proof-of-heaven">Proof of Heaven: A Neurosurgeon's Journey into the Afterlife</a></em> by Eben Alexander (Simon &amp; Schuster, 2012)</li>
+  <li><em><a href="https://www.goodreads.com/book/show/12291050-dying-to-be-me">Dying to Be Me: My Journey from Cancer, to Near Death, to True Healing</a></em> by Anita Moorjani (Hay House, 2012)</li>
   <li><em><a href="https://www.amazon.com/Foundations-Near-Death-Research-Conceptual-Phenomenological-ebook/dp/B07J5CH8NQ">Foundations of Near-Death Research: A Conceptual and Phenomenological Map</a></em>, edited by Alexander Batthyány (IANDS, 2018)</li>
-  <li><em>IANDS Journal</em>, various issues</li>
+  <li><em><a href="https://www.goodreads.com/en/book/show/200421110-impressions-of-near-death-experiences">Impressions of Near-Death Experiences: Quotations From Over 100 Experiencers</a></em> by Robert Christophor Coppes (IANDS, 2023)</li>
+  <li><em><a href="https://iands.org/nde-research/journal-of-near-death-studies/">Journal of Near-Death Studies</a></em> (IANDS), various issues</li>
   <li>The online database of the Near Death Experience Research Foundation (<a href="https://www.nderf.org" target="_blank" rel="noopener">www.nderf.org</a>)</li>
 </ul>
 
