@@ -46,6 +46,7 @@ Sources studied include:
   <li><em>Life After Life</em> by Raymond Moody (Mockingbird Books, 1975)</li>
   <li><em>The Big Book of Near-Death Experiences</em> by P.M.H. Atwater (Hampton Roads Publishing, 2007)</li>
   <li><em>Proof of Heaven: A Neurosurgeon's Journey into the Afterlife</em> by Eben Alexander (Simon &amp; Schuster, 2012)</li>
+  <li><em>Dying to Be Me: My Journey from Cancer, to Near Death, to True Healing</em> by Anita Moorjani (Hay House, 2012)</li>
   <li><em><a href="https://www.amazon.com/Foundations-Near-Death-Research-Conceptual-Phenomenological-ebook/dp/B07J5CH8NQ">Foundations of Near-Death Research: A Conceptual and Phenomenological Map</a></em>, edited by Alexander Batthyány (IANDS, 2018)</li>
   <li><em>IANDS Journal</em>, various issues</li>
   <li>The online database of the Near Death Experience Research Foundation (<a href="https://www.nderf.org" target="_blank" rel="noopener">www.nderf.org</a>)</li>
