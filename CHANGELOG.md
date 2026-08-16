@@ -7,6 +7,35 @@ This file is for maintainers and is excluded from the published build.
 
 ---
 
+## 2026-08-16: Copy polish, UX, and an urgent asset swap
+
+**Functionality**
+
+- **External links now open in a new tab** site-wide. A single runtime handler in
+  the layout tags any http(s) link whose host differs from the page's with
+  `target="_blank" rel="noopener noreferrer"`, covering Markdown- and
+  HTML-authored links; internal links, anchors, and `mailto:` are left alone.
+  Verified in headless Chrome.
+- **"Earth Was the Dream" repointed** to a new YouTube upload. The prior video
+  contained a years-old AI-generated (Midjourney) image that needed to come down;
+  the old ID is no longer referenced anywhere on the site.
+
+**Home**
+
+- Lowered the **hero image** position (42% → 16%) so the figure's face and eyes
+  clear the show title, on desktop and mobile.
+- Tagline uses "pharma"; the fuller characterization spells out "pharmaceutical."
+
+**Copy**
+
+- Research: "the encounter with **beings or presences**" (mirrors the Greyson NDE
+  Scale; more idiomatic to the clinical/IANDS audience).
+- Development & Team: corrected "Nautilus Music-Theater" (was "Twin Cities
+  Nautilus") and linked it to its About page; added a "(pic)" link to the gallery
+  Rough Cuts anchor; reworded the alternate-forms line ("start to suggest a
+  graphic novel"); trimmed an over-selling "multiple drafts reviewed" line and a
+  stray closing flourish.
+
 ## 2026-08-13: Illustration finals, show credits, and house style
 
 **Illustrations and credits**
