@@ -609,6 +609,10 @@ hr, .divider {
   .page-title { font-size: 2.6rem; }
   .hero-subtitle { font-size: 1.7rem; }
   .hero { min-height: 82vh; padding: 4rem 2rem 3rem; }
+  /* Zoom the hero illustration (image layer only; gradient scrims stay cover)
+     so Tanya sits further left and the tunnel further right, its right edge
+     allowed to crop. Kept horizontally centered. */
+  .hero { background-size: cover, cover, 150% auto; }
 
   /* Nav becomes a horizontal bar; hide the toggle */
   .nav-toggle { display: none; }
