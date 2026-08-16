@@ -249,7 +249,7 @@ p { margin: 0 0 1.1em; }
       rgba(28,35,64,0.93) 100%),
     url('/assets/images/hero.jpg');
   background-size: cover, cover, cover;
-  background-position: center, center, center 42%;
+  background-position: center, center, center 16%;
   min-height: 78vh;
   display: flex;
   flex-direction: column;
