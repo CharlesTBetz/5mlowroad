@@ -22,7 +22,7 @@ description: Watch and listen to songs from Five Minutes on the Low Road, a new 
 
   {% include song-card.html title="Overture &amp; Leaderboard" description="Tanya the Tiger in all her competitive glory. Executive vice president at Pharmatech, gunning for the Chief Marketing Officer position. Steve used to be a friend." youtube="UOYqIwcR6HE" %}
   {% include song-card.html title="Earth Was the Dream" description="On the other side, in a garden where the flowers sing. More real than real… and almost impossible to leave." youtube="06IxhEzTSMs" %}
-  {% include song-card.html title="This Was You" description="The life review. A guide shows Tanya the consequences of her choices, replayed through the eyes of everyone she touched." %}
+  {% include song-card.html title="This Was You" description="The life review. A guide shows Tanya the consequences of her choices, replayed through the eyes and hearts of everyone she touched. And then, a decision." %}
   {% include song-card.html title="This Side of Tomorrow" description="The choice to return, and the promise that follows: a life reclaimed for the here and now." youtube="lYIsLwYX9TA" %}
 </section>
 
