@@ -9,8 +9,8 @@
 <div class="yt-embed">
   <button type="button" class="yt-facade" data-yt-id="{{ include.id }}"{% if include.params %} data-yt-params="{{ include.params }}"{% endif %} aria-label="Play video: {{ include.title | default: 'video' }}">
     <img class="yt-thumb" loading="lazy" alt=""
-         src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg"
-         onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg';">
+         src="https://i.ytimg.com/vi/{{ include.thumb | default: include.id }}/maxresdefault.jpg"
+         onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ include.thumb | default: include.id }}/hqdefault.jpg';">
     <span class="yt-play" aria-hidden="true"></span>
   </button>
 </div>

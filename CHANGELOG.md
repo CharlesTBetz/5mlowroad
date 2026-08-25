@@ -7,6 +7,15 @@ This file is for maintainers and is excluded from the published build.
 
 ---
 
+## 2026-08-25: Overture & Leaderboard video; saved-playlist "Watch the set"
+
+- Added the **Overture & Leaderboard** lyric video to its Listen card (show #1).
+- Switched **"Watch the set"** from the ad-hoc video list to the **saved YouTube
+  playlist** ("Five Minutes Concept Demos", `list=PLK-uEjJBX11g`) via an
+  `embed/videoseries` embed, so the set is now curated entirely on YouTube and
+  the site needs no edits as songs are added or reordered. Facade gained an
+  optional `thumb` (thumbnail-id override) so the playlist shows a real poster.
+
 ## 2026-08-24: Listen page video + "Watch the set" playlist
 
 - Added the **This Side of Tomorrow** lyric video to its Listen card.
