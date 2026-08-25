@@ -28,14 +28,6 @@ description: Watch and listen to songs from Five Minutes on the Low Road, a new 
 
 {% include divider.html %}
 
-<!-- Concept recording — a future YouTube video weaving the key songs with narrative -->
-<section class="section">
-  <h2 class="section-heading">The concept recording</h2>
-  <p>A longer piece weaving the key songs together with a bit of narrative, the fullest single introduction to the show. Coming soon.</p>
-</section>
-
-{% include divider.html %}
-
 <p class="logline">Want updates as new music is released?</p>
 <div class="cta-row">
   <a class="btn btn-primary" href="{{ '/subscribe/' | relative_url }}">Stay in Touch</a>
