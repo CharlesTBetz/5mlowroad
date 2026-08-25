@@ -23,7 +23,7 @@ description: Watch and listen to songs from Five Minutes on the Low Road, a new 
   {% include song-card.html title="Overture &amp; Leaderboard" description="The corporate world Tanya rules: driven, competitive, climbing. The life she is about to lose." youtube="UOYqIwcR6HE" %}
   {% include song-card.html title="Earth Was the Dream" description="On the other side, in a garden where the flowers sing. More real than real… and almost impossible to leave. Performed by Lia." youtube="06IxhEzTSMs" %}
   {% include song-card.html title="This Was You" description="The life review. A guide shows Tanya the consequences of her choices, replayed through the eyes of everyone she touched." %}
-  {% include song-card.html title="This Side of Tomorrow" description="The choice to return, and the promise that follows: a life reclaimed for the here and now." youtube="WUdIpjG9AYE" %}
+  {% include song-card.html title="This Side of Tomorrow" description="The choice to return, and the promise that follows: a life reclaimed for the here and now." youtube="lYIsLwYX9TA" %}
 </section>
 
 {% include divider.html %}
