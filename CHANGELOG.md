@@ -7,6 +7,17 @@ This file is for maintainers and is excluded from the published build.
 
 ---
 
+## 2026-08-24: Listen page video + "Watch the set" playlist
+
+- Added the **This Side of Tomorrow** lyric video to its Listen card.
+- Added a **"Watch the set"** auto-advancing playlist at the top of Listen: one
+  YouTube player that plays the available song videos back-to-back (uses the
+  `playlist=` param on the click-to-load facade, so it advances in-player
+  without hitting browser autoplay limits). The facade now accepts an optional
+  `params` value; swap to a saved `list=PL…` playlist later for auto-maintenance.
+
+---
+
 ## 2026-08-16: Copy polish, UX, and an urgent asset swap
 
 **Functionality**
