@@ -6,7 +6,7 @@ scene: The return
 youtube: lYIsLwYX9TA
 ---
 <div class="lyric-sheet">
-  <p class="lyric-stanza">I was the contender,<br>up on the leaderboard.<br>always running faster<br>chasing my reward.<br>"Make the quota," "get the bonus,"<br>"winners always win"<br>Profiting in empty coin<br>WHILE hollowed out within</p>
+  <p class="lyric-stanza">I was the contender,<br>up on the leaderboard.<br>always running faster<br>chasing my reward.<br>"Make the quota," "get the bonus,"<br>"winners always win"<br>Profiting in empty coin<br>while hollowed out within</p>
 
   <p class="lyric-stanza">Before I return,<br>before I go back,<br>before I wake up again<br>I've got to share what I learned<br>On the other side when<br>I was reminded<br>Our time we just borrow<br>And dollars won't repay that debt<br>on this side of tomorrow</p>
 
