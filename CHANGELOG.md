@@ -7,6 +7,14 @@ This file is for maintainers and is excluded from the published build.
 
 ---
 
+## 2026-08-26: Consolidate email on Substack
+
+- Swapped the site's signup from **Kit (ConvertKit)** to the **Substack embed**
+  on `/subscribe/`, and simplified the footer to a "Join the newsletter" link.
+  One list now: site signups go straight to Substack, which auto-delivers every
+  post (fulfilling the "you'll get the Substack posts" promise with no bridging).
+  Kit had no real subscribers, so nothing to migrate.
+
 ## 2026-08-25: Lyric sheets
 
 - Added a **`_lyrics` collection** with a dedicated layout, style, and `/lyrics/`

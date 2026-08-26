@@ -706,6 +706,7 @@ hr, .divider {
 
 /* Anchor target offset so a linked song card isn't jammed to the top edge */
 .song-card { scroll-margin-top: 1.5rem; }
+.substack-embed { margin: 1.75rem 0; }
 
 /* "Read the lyrics" link on a song card */
 .song-card-lyrics {
