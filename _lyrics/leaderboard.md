@@ -3,7 +3,7 @@ layout: lyric
 title: Leaderboard
 order: 1
 scene: At Pharmatech
-youtube: UOYqIwcR6HE
+youtube: 7KG3GMpM_Ws
 ---
 <div class="lyric-sheet">
   <p class="lyric-cue">Tanya</p>
