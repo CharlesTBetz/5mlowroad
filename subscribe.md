@@ -7,7 +7,7 @@ permalink: /subscribe/
 
 <p class="lead">Subscribe free for the in-depth posts on how the show is being built.</p>
 
-<p><em>On the Low Road</em> ranges wider than the show itself: near-death experience and the research around it, the cosmology and social questions it raises, and the craft of turning all of that into music. You'll also get new song releases, readings and competition news, and word the moment the Kickstarter goes live.</p>
+<p><em>On the Low Road</em> is broader than the show: it is the road of the mystic, the seeker, the rebel, an alternative to the dominant materialist paradigm and creative work toward a more just, sustainable, and empathetic world. Near-death experience is one thread among many, alongside cosmology and consciousness, spiritual and social questions, and the craft of turning all of it into music. You'll also get new song releases, readings and competition news, and word the moment the Kickstarter goes live.</p>
 
 <div class="substack-embed">
   <iframe src="https://onthelowroad.substack.com/embed" width="480" height="220" style="border:1px solid #e5ddd0; background:#fff; max-width:100%;" frameborder="0" scrolling="no"></iframe>
