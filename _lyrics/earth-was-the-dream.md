@@ -3,7 +3,7 @@ layout: lyric
 title: Earth Was the Dream
 order: 2
 scene: On the other side
-youtube: 06IxhEzTSMs
+youtube: gyBw6DY6FuQ
 ---
 <div class="lyric-sheet">
   <p class="lyric-stanza">I have been away so long,<br>trapped upon the Earth<br>How could I forget this place,<br>and lose it from the moment of my birth?</p>

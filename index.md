@@ -35,7 +35,7 @@ description: A new musical about near-death experience, empathy, and transformat
 <!-- Featured song -->
 <section class="section">
   <h2 class="section-heading">Featured Song</h2>
-  {% include song-card.html title="Earth Was the Dream" description="On the other side, in a garden where the flowers sing. More real than real… and almost impossible to leave." youtube="06IxhEzTSMs" %}
+  {% include song-card.html title="Earth Was the Dream" description="On the other side, in a garden where the flowers sing. More real than real… and almost impossible to leave." youtube="gyBw6DY6FuQ" %}
   <p><a href="{{ '/listen/' | relative_url }}">Watch and listen to more &rarr;</a></p>
 </section>
 
