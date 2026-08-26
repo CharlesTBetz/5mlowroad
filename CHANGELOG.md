@@ -13,8 +13,8 @@ This file is for maintainers and is excluded from the published build.
   index — literary lyric sheets in the site's chapbook register. The format
   handles full scenes: speaker cues, dialogue, stage directions, stanzas with
   real line breaks, and **duets as side-by-side voice columns**.
-- First two sheets live: **Leaderboard** and **Earth Was the Dream** (the latter
-  sourced from the brochure, pending Charles's confirmation).
+- All four sheets live: **Leaderboard**, **Earth Was the Dream**, **This Was You**,
+  and **This Side of Tomorrow**.
 - Bidirectional links: each Listen card with a sheet shows "Read the lyrics →";
   each lyric page has a "Watch & listen →" back-link to that song's video anchor
   on Listen.
