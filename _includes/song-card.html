@@ -5,7 +5,7 @@
     {% include song-card.html title="Song" description="..." youtube="VIDEO_ID" %}
     {% include song-card.html title="Song" description="..." %}   (video coming soon)
 {% endcomment %}
-<div class="song-card">
+<div class="song-card"{% if include.id %} id="{{ include.id }}"{% endif %}>
   <h3 class="song-card-title">{{ include.title }}</h3>
   {% if include.description %}<p class="song-card-description">{{ include.description }}</p>{% endif %}
   {% if include.youtube %}
@@ -13,4 +13,5 @@
   {% else %}
     <p class="song-card-comingsoon">Video coming soon.</p>
   {% endif %}
+  {% if include.lyrics %}<p class="song-card-lyrics"><a href="{{ '/lyrics/' | append: include.lyrics | append: '/' | relative_url }}">Read the lyrics &rarr;</a></p>{% endif %}
 </div>

@@ -601,8 +601,125 @@ hr, .divider {
 /* ==========================================================================
    Desktop / larger screens
    ========================================================================== */
+/* ----- Lyric sheets ------------------------------------------------------- */
+.lyric-page { text-align: center; }
+
+.lyric-eyebrow { margin-bottom: 1.5rem; }
+
+.lyric-song-title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 2.4rem;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 0.2em;
+}
+.lyric-scene {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lavender);
+  margin: 0 0 2.5rem;
+}
+
+/* The lyric text itself. Authored inside a <div class="lyric-sheet"> with real
+   line breaks; kramdown leaves block-HTML content raw, and pre-line renders the
+   newlines. Blank line in the source = stanza break. */
+.lyric-sheet {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--ink);
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+/* Stanzas / dialogue: one <p class="lyric-stanza"> per block, lines split by <br>. */
+.lyric-stanza { margin: 0 0 1.7rem; }
+
+/* Speaker cue (character name) */
+.lyric-cue {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin: 1.9rem 0 0.5rem;
+}
+
+/* Stage direction */
+.lyric-direction {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1rem;
+  text-transform: none;   /* don't inherit the cue's uppercasing */
+  letter-spacing: 0;
+  color: var(--ink-45);
+  margin: 0.5rem 0 1rem;
+}
+
+/* Two voices singing at once */
+.lyric-duet {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: left;
+  margin: 1.7rem 0;
+}
+.lyric-voice { flex: 1 1 0; max-width: 18rem; }
+.lyric-voice .lyric-cue { margin-top: 0; }
+
+/* Optional chorus emphasis */
+.chorus { font-style: italic; color: var(--primary); }
+
+.lyric-foot {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--glow);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Lyrics index */
+.lyric-index { list-style: none; padding: 0; margin: 2rem 0; }
+.lyric-index li { margin: 0 0 1.1rem; }
+.lyric-index a {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-style: italic;
+  text-decoration: none;
+}
+.lyric-index-scene {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lavender);
+}
+
+/* Anchor target offset so a linked song card isn't jammed to the top edge */
+.song-card { scroll-margin-top: 1.5rem; }
+
+/* "Read the lyrics" link on a song card */
+.song-card-lyrics {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 40em) {
   body { font-size: 18px; }         /* 18px / 1.75 on desktop */
+  .lyric-song-title { font-size: 3rem; }
+  .lyric-sheet { font-size: 1.25rem; }
 
   h1 { font-size: 3rem; }
   h2 { font-size: 2.2rem; }

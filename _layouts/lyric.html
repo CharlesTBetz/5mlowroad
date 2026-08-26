@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="page lyric-page">
+
+  <p class="label lyric-eyebrow"><a href="{{ '/lyrics/' | relative_url }}">Lyrics</a> · <em>Five Minutes on the Low Road</em></p>
+
+  <h1 class="lyric-song-title">{{ page.title }}</h1>
+  {% if page.scene %}<p class="lyric-scene">{{ page.scene }}</p>{% endif %}
+
+  {{ content }}
+
+  <nav class="lyric-foot" aria-label="Lyrics navigation">
+    <a href="{{ '/lyrics/' | relative_url }}">&larr; All lyrics</a>
+    {% if page.youtube %}<a href="{{ '/listen/' | relative_url }}#{{ page.slug }}">Watch &amp; listen &rarr;</a>{% endif %}
+  </nav>
+</div>

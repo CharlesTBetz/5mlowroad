@@ -7,6 +7,18 @@ This file is for maintainers and is excluded from the published build.
 
 ---
 
+## 2026-08-25: Lyric sheets
+
+- Added a **`_lyrics` collection** with a dedicated layout, style, and `/lyrics/`
+  index — literary lyric sheets in the site's chapbook register. The format
+  handles full scenes: speaker cues, dialogue, stage directions, stanzas with
+  real line breaks, and **duets as side-by-side voice columns**.
+- First two sheets live: **Leaderboard** and **Earth Was the Dream** (the latter
+  sourced from the brochure, pending Charles's confirmation).
+- Bidirectional links: each Listen card with a sheet shows "Read the lyrics →";
+  each lyric page has a "Watch & listen →" back-link to that song's video anchor
+  on Listen.
+
 ## 2026-08-25: Overture & Leaderboard video; saved-playlist "Watch the set"
 
 - Added the **Overture & Leaderboard** lyric video to its Listen card (show #1).

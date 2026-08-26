@@ -13,6 +13,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Lyric sheets: one file per song in _lyrics/, served at /lyrics/<name>/
+collections:
+  lyrics:
+    output: true
+    permalink: /lyrics/:name/
+
 # This is a promotional site, not a blog — disable posts collection defaults.
 # (No _posts directory exists; this keeps things explicit.)
 
