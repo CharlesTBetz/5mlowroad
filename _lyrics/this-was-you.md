@@ -68,8 +68,7 @@ youtube: xamSmTWcajg
 
   <p class="lyric-cue">Tanya <span class="lyric-direction">(spoken)</span></p>
   <p class="lyric-stanza">Damn you! You don't play fair!</p>
-  <p class="lyric-stanza">How can I remember what it's<br>like to be so free?</p>
-  <p class="lyric-stanza">How can I recall the love and<br>light that shines up here?<br>in the dark amnesia of that penitentiary<br>back again on planet earth<br>forgetting what my soul is worth</p>
+  <p class="lyric-stanza">How can I remember what it's<br>like to be so free?<br>How can I recall the love and<br>light that shines up here?<br>in the dark amnesia of that penitentiary<br>back again on planet earth<br>forgetting what my soul is worth</p>
   <p class="lyric-stanza">I don't want to fall back into sleep&hellip;</p>
   <p class="lyric-direction">(in tears)</p>
   <p class="lyric-stanza">Okay! I'll go back</p>
