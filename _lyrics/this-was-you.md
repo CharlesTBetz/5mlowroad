@@ -3,7 +3,7 @@ layout: lyric
 title: This Was You
 order: 3
 scene: The life review
-youtube: xamSmTWcajg
+youtube: 3r_wGI2sdbQ
 ---
 <div class="lyric-sheet">
   <p class="lyric-cue">Uncle</p>
