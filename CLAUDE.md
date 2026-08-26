@@ -44,11 +44,15 @@ duplicated work and messy divergences).
   Originals are NOT committed (kept in Dropbox / `source/`).
 
 ## Writing style
-- **Avoid em dashes** (the `—` character and `&mdash;`) in site copy. They read as an
-  AI tell. Keep no more than two across the whole published site; it currently sits at
-  zero. Use a comma, colon, ellipsis, parentheses, or a period plus "And"/"But" instead.
-- En dashes in numeric ranges (e.g. `2023–2025`) and ordinary hyphens are fine; only
-  em dashes are the concern.
+- **Never use em dashes** (`—` / `&mdash;`) in site copy. They read as an AI tell.
+- **When a parenthetical/dash pause is wanted, use a literal double-hyphen `--`**
+  (Charles's deliberate "reverse AI tell"), e.g. `On the Low Road -- my Substack -- is…`.
+  Commas/colons/ellipses/parentheses are also fine where they read better.
+- Kramdown gotcha: `--` stays literal inside block HTML (`<p>`, `<div>`) — which is how
+  the subscribe/lyric copy is authored — but in **plain markdown prose** kramdown may
+  auto-convert `--` to an en dash. If you need a literal `--` in prose, wrap it in an
+  HTML element or write `&#45;&#45;`. Verify in the built HTML.
+- En dashes in numeric ranges (e.g. `2023–2025`) and ordinary hyphens are fine.
 - This preference may relax over time, per Charles.
 - **Ellipses on the website: use the single Unicode character `…` (U+2026).** Chosen
   for accessibility (screen readers announce it correctly) and because one glyph never
