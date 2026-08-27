@@ -708,6 +708,19 @@ hr, .divider {
 .song-card { scroll-margin-top: 1.5rem; }
 .substack-embed { margin: 1.75rem 0; }
 
+/* Small info note (e.g. YouTube bot-gate heads-up at the top of Listen) */
+.page-note {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--ink-70);
+  background: rgba(155, 136, 188, 0.09);
+  border: 1px solid rgba(155, 136, 188, 0.35);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  margin: 0 0 2rem;
+}
+
 /* "Read the lyrics" link on a song card */
 .song-card-lyrics {
   font-family: var(--font-sans);

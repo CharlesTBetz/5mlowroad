@@ -6,6 +6,8 @@ permalink: /listen/
 description: Watch and listen to songs from Five Minutes on the Low Road, a new musical about near-death experience.
 ---
 
+<p class="page-note">Seeing a security warning or a "sign in to confirm you're not a bot" message in the video players? That's a YouTube restriction, common on shared or public Wi-Fi, not a problem with the site. You can <a href="https://www.youtube.com/playlist?list=PLK-uEjJBX11g">watch the full set directly on YouTube</a> instead.</p>
+
 <!-- Play all: one auto-advancing YouTube playlist of the available videos -->
 <section class="section">
   <h2 class="section-heading">Watch the set</h2>
