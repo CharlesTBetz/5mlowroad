@@ -45,7 +45,7 @@ We're forming a small advisory council of NDE researchers, IANDS-affiliated expe
 The commitment is deliberately light: about 30 minutes of prep and a 30-minute conversation, twice a year. No fundraising ask, and no obligation beyond the two calls. Advisors are credited (or not, at their option) in the show's materials.
 
 <div class="cta-row">
-  <a class="btn btn-primary" href="{{ '/assets/downloads/5min-advisory-council.pdf' | relative_url }}" download>Read the full invitation (PDF)</a>
+  <a class="btn btn-primary" href="{{ '/assets/downloads/5min-advisory-council-2608.pdf' | relative_url }}" download>Read the full invitation (PDF)</a>
   <a class="btn btn-secondary" href="mailto:char@charlestbetz.com?subject=Five%20Minutes%20advisory%20council">Get in touch</a>
 </div>
 
