@@ -2,7 +2,7 @@
 layout: lyric
 title: Leaderboard
 order: 1
-scene: At Pharmatech
+scene: At PharmaSpan
 youtube: Y9EvnAL71E4
 ---
 <div class="lyric-sheet">
